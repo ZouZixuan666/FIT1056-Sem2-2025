@@ -4,14 +4,14 @@ class Student:
     def __init__(self, student_id, name):
         self.id = student_id
         self.name = name
-        # Initialize an empty list called 'enrolled_in' to store instrument names.
+        # Initialize an empty list called 'enrolled_in' to store instrument names.DONE
         self.enrolled_in = []
         
 
 class Teacher:
     """A blueprint for teacher objects."""
     def __init__(self, teacher_id, name, speciality):
-        #Assign all three parameters (teacher_id, name, speciality)
+        #Assign all three parameters (teacher_id, name, speciality)DONE
         self.id = teacher_id
         self.name = name
         self.speciality = speciality
@@ -19,7 +19,7 @@ class Teacher:
 
 
 # --- In-Memory Databases ---
-#Create the global data stores.
+#Create the global data stores.DONE
 student_db = []
 teacher_db = []
 next_student_id = 1
