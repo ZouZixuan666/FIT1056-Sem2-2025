@@ -1,3 +1,9 @@
+# --- In-Memory Databases ---
+#Create the global data stores.
+student_db = []
+teacher_db = []
+next_student_id = 1
+next_teacher_id = 1
 # --- Data Models ---
 class Student:
     """A blueprint for student objects. Holds their info."""
@@ -20,6 +26,7 @@ class Teacher:
 def add_teacher(name, speciality):
     """Creates a Teacher object and adds it to the database."""
     global next_teacher_id
+    
     # TODO: Create a new Teacher object using the next available ID.
     new_teacher = Teacher(next_teacher_id, name, speciality)
     # TODO: Append the new_teacher to the teacher_db list.
@@ -72,7 +79,7 @@ def find_student_by_id(student_id):
 
 def front_desk_register(name, instrument):
     """High-level function to register a new student and enrol them."""
-    global next_student_id
+    
     # TODO: Create a new Student object, add it to student_db, and increment the ID.
     new_student = Student(next_student_id, name)
     student_db.append(new_student)
@@ -99,10 +106,53 @@ def front_desk_lookup(term):
     print(f"\n--- Performing lookup for '{term}' ---")
     find_students(term)
     find_teachers(term)
+    
+# --- Main Application ---
+def main():
+    """Runs the main interactive menu for the receptionist."""
+    # Pre-populate some data for easy testing
+    add_teacher("Dr. Keys", "Piano")
+    add_teacher("Ms. Fret", "Guitar")
 
-# --- In-Memory Databases ---
-#Create the global data stores.DONE
-student_db = []
-teacher_db = []
-next_student_id = 1
-next_teacher_id = 1
+    while True:
+        print("\n===== Music School Front Desk =====")
+        print("1. Register New Student")
+        print("2. Enrol Existing Student")
+        print("3. Lookup Student or Teacher")
+        print("4. (Admin) List all Students")
+        print("5. (Admin) List all Teachers")
+        print("q. Quit")
+        
+        choice = input("Enter your choice: ")
+
+        if choice == '1':
+            # TODO: Prompt for student name and instrument, then call front_desk_register.
+            name = input("Enter student name: ")
+            instrument = input("Enter instrument to enrol in: ")
+            front_desk_register(name, instrument)
+        elif choice == '2':
+            # TODO: Prompt for student ID (as an int) and instrument, then call front_desk_enrol.
+            try:
+                student_id = int(input("Enter student ID: "))
+                instrument = input("Enter instrument to enrol in: ")
+                front_desk_enrol(student_id, instrument)
+            except ValueError:
+                print("Invalid ID. Please enter a number.")
+        elif choice == '3':
+            # TODO: Prompt for a search term, then call front_desk_lookup.
+            term = input("Enter search term: ")
+            front_desk_lookup(term)
+        elif choice == '4':
+            list_students()
+        elif choice == '5':
+            list_teachers()
+        elif choice.lower() == 'q':
+            print("Exiting program. Goodbye!")
+            break
+        else:
+            print("Invalid choice. Please try again.")
+
+# --- Program Start ---
+if __name__ == "__main__":
+    main()
+
