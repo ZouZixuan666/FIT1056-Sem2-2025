@@ -92,7 +92,7 @@ def find_teachers(term):
     else:
         for teacher in results:
             print(teacher)
-    pass
+    
 # --- Front Desk Functions ---
 def find_student_by_id(student_id):
     """A new helper to find one student by their exact ID."""
@@ -106,8 +106,9 @@ def find_student_by_id(student_id):
 
 def front_desk_register(name, instrument):
     """High-level function to register a new student and enrol them."""
-    global next_teacher_id
+    
     # TODO: Create a new Student object, add it to student_db, and increment the ID.
+    global next_student_id
     new_student = Student(next_student_id, name)
     student_db.append(new_student)
     next_student_id += 1
