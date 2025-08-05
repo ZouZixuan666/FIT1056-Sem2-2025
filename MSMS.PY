@@ -169,6 +169,7 @@ def main():
         print("4. (Admin) List all Students")
         print("5. (Admin) List all Teachers")
         print("6. (Admin) Remove student")
+        print("7. (Admin) Remove teacher")
         print("q. Quit")
         
         choice = input("Enter your choice: ")
