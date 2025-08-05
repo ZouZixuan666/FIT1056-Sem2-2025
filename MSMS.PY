@@ -2,11 +2,15 @@
 #Create the global data stores.
 student_db = []
 teacher_db = []
+results = []
 next_student_id = 1
 next_teacher_id = 1
 # --- Data Models ---
 class Student:
     """A blueprint for student objects. Holds their info."""
+    def __str__(self):
+        return f"ID: {self.id}, Name: {self.name}, Enrolled in: {self.enrolled_in}"
+
     def __init__(self, student_id, name):
         self.id = student_id
         self.name = name
@@ -15,7 +19,11 @@ class Student:
         
 
 class Teacher:
+    
     """A blueprint for teacher objects."""
+    def __str__(self):
+        return f"ID: {self.id}, Name: {self.name}, Speciality: {self.speciality}"
+    
     def __init__(self, teacher_id, name, speciality):
         #Assign all three parameters (teacher_id, name, speciality)DONE
         self.id = teacher_id
@@ -43,7 +51,7 @@ def list_students():
         return
     # TODO: Loop through student_db. For each student, print their ID, name, and their enrolled_in list.
     for student in student_db:
-        print(f"  ID: {student.id}, Name: {student.name}, Enrolled in: {student.enrolled_in}")
+        print(f"  ID: {student.id}, Name: {student.name}, Student is enrolled in: {student.enrolled_in}")
 
 def list_teachers():
     """Prints all teachers in the database."""
@@ -54,23 +62,42 @@ def list_teachers():
 
 def find_students(term):
     """Finds students by name."""
-    print(f"\n--- Finding Students matching '{term}' ---")
     # TODO: Create an empty list to store results.
     # Loop through student_db. If the search 'term' (case-insensitive) is in the student's name,
     # add them to your results list.
     # After the loop, if the results list is empty, print "No match found."
     # Otherwise, print the details for each student in the results list.
-    pass
+    print(f"\n=== Finding Students matching '{term}' ===")#guide line
+    
+    for student in student_db:
+        if term.lower() in student.name.lower():# prevent for miss matching
+            results.append(student)
+    if not results:
+        print("No match found.")
+    else:
+        for student in results:
+            print(student)
+    
 
 def find_teachers(term):
     """Finds teachers by name or speciality."""
     # TODO: Implement this function similar to find_students, but check
     # for the term in BOTH the teacher's name AND their speciality.
+    print(f"\n=== Finding Teachers matching '{term}' ===")#guide line
+    for teacher in teacher_db:
+        if (term.lower() in teacher.name.lower()) or (term.lower() in teacher.speciality.lower()):
+            results.append(teacher)
+    if not results:
+        print("No match found.")
+    else:
+        for teacher in results:
+            print(teacher)
     pass
 # --- Front Desk Functions ---
 def find_student_by_id(student_id):
     """A new helper to find one student by their exact ID."""
     # TODO: Loop through student_db. If a student's ID matches student_id, return the student object.
+    
     for student in student_db:
         if student.id == student_id:
             return student
@@ -79,7 +106,7 @@ def find_student_by_id(student_id):
 
 def front_desk_register(name, instrument):
     """High-level function to register a new student and enrol them."""
-    
+    global next_teacher_id
     # TODO: Create a new Student object, add it to student_db, and increment the ID.
     new_student = Student(next_student_id, name)
     student_db.append(new_student)
@@ -94,6 +121,10 @@ def front_desk_enrol(student_id, instrument):
     # TODO: Use your new find_student_by_id() helper.
     student = find_student_by_id(student_id)
     # TODO: If the student is found, append the instrument to their 'enrolled_in' list.
+    if instrument not in student.enrolled_in:
+        student.enrolled_in.append(instrument)
+    else:
+        print(f"Student already enrolled in '{instrument}'.")
     if student:
         student.enrolled_in.append(instrument)
         print(f"Front Desk: Enrolled student {student_id} in '{instrument}'.")
@@ -106,6 +137,15 @@ def front_desk_lookup(term):
     print(f"\n--- Performing lookup for '{term}' ---")
     find_students(term)
     find_teachers(term)
+
+#extra method remove students
+def remove_student(student_id):
+    student = find_student_by_id(student_id)
+    if student:
+        student_db.remove(student)
+        print(f"Removed student: {student.name}")
+    else:
+        print("Student not found with id .")
     
 # --- Main Application ---
 def main():
@@ -121,6 +161,7 @@ def main():
         print("3. Lookup Student or Teacher")
         print("4. (Admin) List all Students")
         print("5. (Admin) List all Teachers")
+        print("6. (Admin) Remove student")
         print("q. Quit")
         
         choice = input("Enter your choice: ")
@@ -146,6 +187,12 @@ def main():
             list_students()
         elif choice == '5':
             list_teachers()
+        elif choice == '6':
+            try:
+                student_id = int(input("Please input the student ID to remove: "))
+                remove_student(student_id)
+            except ValueError:
+                print("Invalid input. Please enter a number.")#erro raising
         elif choice.lower() == 'q':
             print("Exiting program. Goodbye!")
             break
