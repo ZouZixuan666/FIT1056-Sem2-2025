@@ -20,23 +20,23 @@ It surpot registration of students and teachers, enrolment in instruments, listi
 
 Menu Options Option	Description
 
-1	           Register a new student
+[1]	           Register a new student
 
-2	           Enrol an existing student in an instrument
+[2]	           Enrol an existing student in an instrument
 
-3	           Lookup a student by name or instrument
+[3]           Lookup a student by name or instrument
 
-4            List all students (Admin only)
+[4]            List all students (Admin only)
 
-5	           List all teachers (Admin only)
+[5]	           List all teachers (Admin only)
 
-6	           Remove a student by ID (Admin only)
+[6]	           Remove a student by ID (Admin only)
 
-7	           Remove a teacher by ID (Admin only)
+[7]	           Remove a teacher by ID (Admin only)
 
-8	           Add a teacher (Admin only)
+[8]	           Add a teacher (Admin only)
 
-Q/q	         Quit the program
+[Q/q]	         Quit the program
 
 (For more deatails, please go to the inter code comments)
 
