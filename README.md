@@ -10,8 +10,9 @@ It surpot registration of students and teachers, enrolment in instruments, listi
    bash
    git clone https://github.com/ZouZixuan666/FIT1056-Sem2-2025.git
    git switch individual
-  then feel free to test if on
-## main functions ##
+   Then run MSMS.py and feel free to test if on
+   
+## Main functions ##
 Menu Options Option	Description
 1	           Register a new student
 2	           Enrol an existing student in an instrument
@@ -23,7 +24,9 @@ Menu Options Option	Description
 8	           Add a teacher (Admin only)
 Q/q	         Quit the program
 
-## warning ##
+(For more deatails, please go to the inter code comments)
+
+## Warning ##
 1. Admin Authentication (Option 4,5,6,7,8)
    To access these functions, you must authenticate as an admin:
    Password is hardcoded for now （password: 123）
