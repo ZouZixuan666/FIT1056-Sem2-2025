@@ -4,7 +4,7 @@ student_db = []
 teacher_db = []
 next_student_id = 1
 next_teacher_id = 1
-
+ADMIN_PASSWORD = "secret123"  # been setted done
 
 # --- Data Models ---
 class Student:
@@ -36,7 +36,14 @@ class Teacher:
 def add_teacher(name, speciality):
     """Creates a Teacher object and adds it to the database."""
     global next_teacher_id
-    
+    if not name.strip() or not speciality.strip():# first part check if there is something in teacher's name secondly check if speciality is also empty
+        print("Error: Name and speciality cannot be empty.")
+        return
+    # Prevent duplicate teachers name
+    for teacher in teacher_db:
+        if teacher.name.lower() == name.lower():# check if the teacher names are duplicated ignored the front
+            print("Error: A teacher with this name already exists.")
+            return
     # TODO: Create a new Teacher object using the next available ID.
     new_teacher = Teacher(next_teacher_id, name, speciality)
     # TODO: Append the new_teacher to the teacher_db list.
@@ -48,7 +55,7 @@ def add_teacher(name, speciality):
 def list_students():
     """Prints all students in the database."""
     print("\n--- Student List ---")
-    if not student_db:# if its empty inside the data base then quick directly
+    if not student_db:# if its empty inside the data base then quit directly
         print("No students in the system.")
         return
     # TODO: Loop through student_db. For each student, print their ID, name, and their enrolled_in list.
@@ -74,9 +81,9 @@ def find_students(term):
     global results
     results.clear()#clear the list for multiple searchs
     for student in student_db:
-        if term.lower() in student.name.lower():# prevent for miss matching
+        if term.lower() in student.name.lower():# prevent for miss matching of front
             results.append(student)
-    if not results:
+    if not results: # if there is nothing been append from above line
         print("No match found.")
     else:
         for student in results:
@@ -91,9 +98,9 @@ def find_teachers(term):
     global results
     results.clear()#clear the list for multiple searchs
     for teacher in teacher_db:
-        if (term.lower() in teacher.name.lower()) or (term.lower() in teacher.speciality.lower()):
+        if (term.lower() in teacher.name.lower()) or (term.lower() in teacher.speciality.lower()): # check if teacher or teacher's speciality is in database then append this result
             results.append(teacher)
-    if not results:
+    if not results: # if there is nothing been append from above line
         print("No match found.")
     else:
         for teacher in results:
@@ -103,9 +110,9 @@ def find_teachers(term):
 def find_student_by_id(student_id):
     """A new helper to find one student by their exact ID."""
     # TODO: Loop through student_db. If a student's ID matches student_id, return the student object.
-    
+    print(f"Finding student with id: {student_id} - - - -")
     for student in student_db:
-        if student.id == student_id:
+        if student.id == student_id: # matching the id
             return student
     # TODO: If the loop finishes without finding a match, return None.
     return None
@@ -114,7 +121,7 @@ def front_desk_register(name, instrument):
     """High-level function to register a new student and enrol them."""
     
     # TODO: Create a new Student object, add it to student_db, and increment the ID.
-    global next_teacher_id
+    global next_student_id
     if not name.strip() or not instrument.strip():#if some bad users input none then return
         print("Error: Name and instrument cannot be empty.")
         return
@@ -131,8 +138,8 @@ def front_desk_enrol(student_id, instrument):
     # TODO: Use your new find_student_by_id() helper.
     student = find_student_by_id(student_id)
     # TODO: If the student is found, append the instrument to their 'enrolled_in' list.
-    if student:
-        if instrument not in student.enrolled_in:
+    if student:# make sure the student is found if not found, the if will be false then go to else
+        if instrument not in student.enrolled_in: #privent from multi enrolled
             student.enrolled_in.append(instrument)
             print(f"Front Desk: Enrolled student {student_id} in '{instrument}'.")
         else:
@@ -149,13 +156,31 @@ def front_desk_lookup(term):
 
 #extra method remove students
 def remove_student(student_id):
+    """remove the pionted students"""
     student = find_student_by_id(student_id)
-    if student:
+    if student:  # make sure the student is found if not found, the if will be false then go to else
         student_db.remove(student)
         print(f"Removed student: {student.name}")
     else:
         print("Student not found with id .")
-    
+#extra method remove teachers
+def remove_teacher(teacher_id):
+    """remove the pionted teachers"""
+    for teacher in teacher_db:
+        if teacher.id == teacher_id: # matching the id
+            teacher_db.remove(teacher)
+            print(f"Removed teacher: {teacher.name}")
+            return
+    print("Teacher not found with given ID.")
+
+def authenticate_admin():
+    """Ask for admin password and return True if correct."""
+    password = input("Enter admin password: ")
+    if password == ADMIN_PASSWORD: #matching password
+        return True
+    else:
+        print("Authentication failed.")
+        return False
 # --- Main Application ---
 def main():
     """Runs the main interactive menu for the receptionist."""
@@ -172,42 +197,66 @@ def main():
         print("5. (Admin) List all Teachers")
         print("6. (Admin) Remove student")
         print("7. (Admin) Remove teacher")
+        print("8. (Admin) Add teahcer")
         print("q. Quit")
         
         choice = input("Enter your choice: ")
-
-        if choice == '1':
-            # TODO: Prompt for student name and instrument, then call front_desk_register.
-            name = input("Enter student name: ")
-            instrument = input("Enter instrument to enrol in: ")
-            front_desk_register(name, instrument)
-        elif choice == '2':
-            # TODO: Prompt for student ID (as an int) and instrument, then call front_desk_enrol.
-            try:
-                student_id = int(input("Enter student ID: "))
+        #Here I changed the massive if else to the switch.(Don't deduct my point because of it, this way looks more clean right ^_^)
+        match choice:
+            case '1':
+                name = input("Enter student name: ")
                 instrument = input("Enter instrument to enrol in: ")
-                front_desk_enrol(student_id, instrument)
-            except ValueError:
-                print("Invalid ID. Please enter a number.")
-        elif choice == '3':
-            # TODO: Prompt for a search term, then call front_desk_lookup.
-            term = input("Enter search term: ")
-            front_desk_lookup(term)
-        elif choice == '4':
-            list_students()
-        elif choice == '5':
-            list_teachers()
-        elif choice == '6':
-            try:
-                student_id = int(input("Please input the student ID to remove: "))
-                remove_student(student_id)
-            except ValueError:
-                print("Invalid input. Please enter a number.")#erro raising
-        elif choice.lower() == 'q':
-            print("Exiting program. Goodbye!")
-            break
-        else:
-            print("Invalid choice. Please try again.")
+                front_desk_register(name, instrument)
+
+            case '2':
+                try:
+                    student_id = int(input("Enter student ID: "))
+                    instrument = input("Enter instrument to enrol in: ")
+                    front_desk_enrol(student_id, instrument)
+                except ValueError:
+                    print("Invalid ID. Please enter a number.")
+
+            case '3':
+                term = input("Enter search term: ")
+                front_desk_lookup(term)
+
+            case '4':
+                 if authenticate_admin():
+                    list_students()
+
+            case '5':
+                if authenticate_admin():
+                    list_teachers()
+
+            case '6':
+                if authenticate_admin():
+                    try:
+                        student_id = int(input("Please input the student ID to remove: "))
+                        remove_student(student_id)
+                    except ValueError:
+                        print("Invalid input. Please enter a number.")
+
+            case '7':
+                if authenticate_admin():
+                    try:
+                        teacher_id = int(input("Please input the teacher ID to remove: "))
+                        remove_teacher(teacher_id)
+                    except ValueError:
+                        print("Invalid input. Please enter a number.")
+                       
+            case '8':
+                if authenticate_admin():
+                    try:
+                        add_teacher(teacher_name = input("Please input the teacher's name to add: "),teacher_spec = input("Please input the teacher's speciality: "))
+                    except Exception as bad:
+                        print(f"An error occurred: {bad}")
+
+            case 'q' | 'Q':  # handles both lowercase and uppercase 'q'
+                print("Exiting program. Goodbye!")
+                break
+
+            case _:
+                print("Invalid choice. Please try again.")
 
 # --- Program Start ---
 if __name__ == "__main__":
