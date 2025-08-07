@@ -14,7 +14,7 @@ It surpot registration of students and teachers, enrolment in instruments, listi
    
    git switch individual
    
-   Then run MSMS.py and feel free to test it on
+2. **Then run MSMS.py and feel free to test it on**
    
 ## Main functions ##
 
