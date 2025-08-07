@@ -4,7 +4,10 @@ student_db = []
 teacher_db = []
 next_student_id = 1
 next_teacher_id = 1
-ADMIN_PASSWORD = "secret123"  # been setted done
+results=[]
+
+ADMIN_PASSWORD = "123"  # Password been setted done, however on the choice you given, there is a (admin) but no code for realize this.
+                        # Kind of wired right, although it look dumb but I still added.
 
 # --- Data Models ---
 class Student:
@@ -36,12 +39,12 @@ class Teacher:
 def add_teacher(name, speciality):
     """Creates a Teacher object and adds it to the database."""
     global next_teacher_id
-    if not name.strip() or not speciality.strip():# first part check if there is something in teacher's name secondly check if speciality is also empty
+    if not name.strip() or not speciality.strip():# First part check if there is something in teacher's name secondly check if speciality is also empty
         print("Error: Name and speciality cannot be empty.")
         return
     # Prevent duplicate teachers name
     for teacher in teacher_db:
-        if teacher.name.lower() == name.lower():# check if the teacher names are duplicated ignored the front
+        if teacher.name.lower() == name.lower():# Check if the teacher names are duplicated ignored the front
             print("Error: A teacher with this name already exists.")
             return
     # TODO: Create a new Teacher object using the next available ID.
@@ -55,7 +58,7 @@ def add_teacher(name, speciality):
 def list_students():
     """Prints all students in the database."""
     print("\n--- Student List ---")
-    if not student_db:# if its empty inside the data base then quit directly
+    if not student_db:# If its empty inside the data base then quit directly
         print("No students in the system.")
         return
     # TODO: Loop through student_db. For each student, print their ID, name, and their enrolled_in list.
@@ -79,11 +82,11 @@ def find_students(term):
     
     print(f"\n=== Finding Students matching '{term}' ===")#guide line
     global results
-    results.clear()#clear the list for multiple searchs
+    results.clear()#Clear the list for multiple searchs
     for student in student_db:
         if term.lower() in student.name.lower():# prevent for miss matching of front
             results.append(student)
-    if not results: # if there is nothing been append from above line
+    if not results: # If there is nothing been append from above line
         print("No match found.")
     else:
         for student in results:
@@ -100,7 +103,7 @@ def find_teachers(term):
     for teacher in teacher_db:
         if (term.lower() in teacher.name.lower()) or (term.lower() in teacher.speciality.lower()): # check if teacher or teacher's speciality is in database then append this result
             results.append(teacher)
-    if not results: # if there is nothing been append from above line
+    if not results: # If there is nothing been append from above line
         print("No match found.")
     else:
         for teacher in results:
@@ -247,11 +250,13 @@ def main():
             case '8':
                 if authenticate_admin():
                     try:
-                        add_teacher(teacher_name = input("Please input the teacher's name to add: "),teacher_spec = input("Please input the teacher's speciality: "))
+                        teacher_name = input("Please input the teacher's name to add: ")
+                        teacher_speciality = input("Please input the teacher's speciality: ")
+                        add_teacher(name=teacher_name, speciality=teacher_speciality)
                     except Exception as bad:
                         print(f"An error occurred: {bad}")
 
-            case 'q' | 'Q':  # handles both lowercase and uppercase 'q'
+            case 'q' | 'Q':  #both lowercase and uppercase 'q'
                 print("Exiting program. Goodbye!")
                 break
 
