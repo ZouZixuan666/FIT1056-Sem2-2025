@@ -9,8 +9,11 @@ It surpot registration of students and teachers, enrolment in instruments, listi
 1. **Clone the repo:**
    
    bash
+   
    git clone https://github.com/ZouZixuan666/FIT1056-Sem2-2025.git
+   
    git switch individual
+   
    Then run MSMS.py and feel free to test if on
    
 ## Main functions ##
