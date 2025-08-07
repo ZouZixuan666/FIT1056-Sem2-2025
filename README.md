@@ -38,7 +38,7 @@ Menu Options Option	Description
 
 [Q/q]	         Quit the program
 
-(For more deatails, please go to the inter code comments)
+(There are totally 17 methods providing functionalities of this program, the functions of them are commented. For more deatails, please go to the inter code comments)
 
 ## Warning ##
 1. Admin Authentication (Option 4,5,6,7,8)
