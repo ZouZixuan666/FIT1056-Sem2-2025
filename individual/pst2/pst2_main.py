@@ -9,7 +9,7 @@ ADMIN_PASSWORD = "123"  # Password been setted done, however on the choice you g
                         # Kind of wired right, although it look dumb but I still added.
                         
                         
-# ----------------- Helper Functions -----------------
+# ----------------- Helper Functions ----------------
 def search_records(records, term, keys):
     """Search a list of dicts for term in specified keys."""
     term = term.lower()
