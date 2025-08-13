@@ -2,6 +2,8 @@
 
 import json
 import datetime
+import os
+import glob
 
 DATA_FILE = "msms.json"
 app_data = {} # This global dictionary will hold ALL our data.
@@ -9,7 +11,8 @@ ADMIN_PASSWORD = "123"  # Password been setted done, however on the choice you g
                         # Kind of wired right, although it look dumb but I still added.
                         
                         
-# ----------------- Helper Functions --------
+print("Saving in:", os.getcwd())                  
+# ----------------- Helper Functions -----------------
 def search_records(records, term, keys):
     """Search a list of dicts for term in specified keys."""
     term = term.lower()
@@ -64,7 +67,8 @@ def load_data(path=DATA_FILE):
             "next_student_id": 1,
             "next_teacher_id": 1
         }
-
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_FILE = os.path.join(BASE_DIR, "msms.json")
 def save_data(path=DATA_FILE):
     """Saves all application data to a JSON file."""
     # TODO: Open the file at 'path' in write mode ('w').
@@ -73,7 +77,29 @@ def save_data(path=DATA_FILE):
     with open(path, 'w') as f:
         json.dump(app_data, f, indent=4)
     print("Data saved successfully.")
-        
+    
+    
+    
+def clear_local_files():
+    """Deletes all program-generated local files like msms.json and student cards."""
+    files_deleted = 0
+
+    # Delete msms.json if it exists
+    if os.path.exists(DATA_FILE):
+        os.remove(DATA_FILE)
+        files_deleted += 1
+        print(f"Deleted {DATA_FILE}")
+
+    # Delete all student card files (*.txt with ID_card naming)
+    for file_path in glob.glob("*_card.txt"):
+        os.remove(file_path)
+        files_deleted += 1
+        print(f"Deleted {file_path}")
+
+    if files_deleted == 0:
+        print("No local files found to delete.")
+    else:
+        print(f"Total files deleted: {files_deleted}")
 # ----------------- Teachers -----------------
 def add_teacher(name, speciality):
     """Creates a Teacher object and adds it to the database."""
