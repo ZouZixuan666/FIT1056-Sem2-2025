@@ -47,6 +47,9 @@ def authenticate_admin():
 
                         
 # --- Core Persistence Engine ---
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_FILE = os.path.join(BASE_DIR, "msms.json")
+
 def load_data(path=DATA_FILE):
     """Loads all application data from a JSON file."""
     global app_data
@@ -67,8 +70,7 @@ def load_data(path=DATA_FILE):
             "next_student_id": 1,
             "next_teacher_id": 1
         }
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_FILE = os.path.join(BASE_DIR, "msms.json")
+
 def save_data(path=DATA_FILE):
     """Saves all application data to a JSON file."""
     # TODO: Open the file at 'path' in write mode ('w').
@@ -79,19 +81,19 @@ def save_data(path=DATA_FILE):
     print("Data saved successfully.")
     
     
-    
 def clear_local_files():
-    """Deletes all program-generated local files like msms.json and student cards."""
+    """Deletes all program-generated local files (msms.json and student cards) inside pst2 folder."""
     files_deleted = 0
 
     # Delete msms.json if it exists
-    if os.path.exists(DATA_FILE):
-        os.remove(DATA_FILE)
+    data_file_path = os.path.join(BASE_DIR, DATA_FILE)
+    if os.path.exists(data_file_path):
+        os.remove(data_file_path)
         files_deleted += 1
-        print(f"Deleted {DATA_FILE}")
+        print(f"Deleted {data_file_path}")
 
-    # Delete all student card files (*.txt with ID_card naming)
-    for file_path in glob.glob("*_card.txt"):
+    # Delete all student card files (*.txt with _card naming) inside pst2
+    for file_path in glob.glob(os.path.join(BASE_DIR, "*_card.txt")):
         os.remove(file_path)
         files_deleted += 1
         print(f"Deleted {file_path}")
@@ -100,6 +102,8 @@ def clear_local_files():
         print("No local files found to delete.")
     else:
         print(f"Total files deleted: {files_deleted}")
+
+
 # ----------------- Teachers -----------------
 def add_teacher(name, speciality):
     """Creates a Teacher object and adds it to the database."""
@@ -374,7 +378,7 @@ def print_student_card(student_id):
     
     if student_to_print:
         # TODO: Create a filename, e.g., f"{student_id}_card.txt".
-        filename = f"{student_id}_card.txt"
+        filename = os.path.join(BASE_DIR, f"{student_id}_card.txt")
         # TODO: Open the file in write mode ('w').
         with open(filename, 'w') as f:
             # Write the student's details to the file in a nice format.
@@ -410,6 +414,7 @@ def main():
         print("a. (Admin) Remove teacher")
         print("b. (Admin) Add teacher")
         print("c. Show today's attdence")
+        print("d. Clear all the local files")
         print("q. Quit")
         
         choice = input("Enter your choice: ")
@@ -496,6 +501,9 @@ def main():
             
             case 'c':
                 show_attendance()
+            
+            case 'd':
+                clear_local_files()
 
             case 'q' | 'Q':  #both lowercase and uppercase 'q'
                 print("Exiting program. Goodbye!")
