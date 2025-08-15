@@ -98,6 +98,7 @@ The program supports:
 }
 
 ### Main Menu Options
+
 ===== Music School Front Desk =====
 1. Register New Student
 2. Enrol Existing Student
