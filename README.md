@@ -1,4 +1,4 @@
-This **Music School Management System** is designed to simulate the front desk operations of a music school. 
+  This **Music School Management System** is designed to simulate the front desk operations of a music school. 
 It surpot registration of students and teachers, enrolment in instruments, listing, searching, and administrative operations like adding or removing records.
 
 ## Project Structure ##
@@ -100,20 +100,20 @@ The program supports:
 ### Main Menu Options
 
 ===== Music School Front Desk =====
--1. Register New Student
--2. Enrol Existing Student
--3. Lookup Student or Teacher
--4. Check-in Student
--5. Print Student Card
--6. Update Teacher Info
--7. (Admin) List all Students
--8. (Admin) List all Teachers
--9. (Admin) Remove student
--a. (Admin) Remove teacher
--b. (Admin) Add teacher
--c. Show today's attendance
--d. Clear all the local files
--q. Quit
+- 1. Register New Student
+- 2. Enrol Existing Student
+- 3. Lookup Student or Teacher
+- 4. Check-in Student
+- 5. Print Student Card
+- 6. Update Teacher Info
+- 7. (Admin) List all Students
+- 8. (Admin) List all Teachers
+- 9. (Admin) Remove student
+- a. (Admin) Remove teacher
+- b. (Admin) Add teacher
+- c. Show today's attendance
+- d. Clear all the local files
+- q. Quit
 
 ## Warning ##
 1. Admin Authentication (Option 4,5,6,7,8)
