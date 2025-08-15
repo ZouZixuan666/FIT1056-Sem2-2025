@@ -1,0 +1,18 @@
+{
+    "students": [],
+    "teachers": [
+        {
+            "id": 1,
+            "name": "Dr. Keys",
+            "speciality": "Piano"
+        },
+        {
+            "id": 2,
+            "name": "Ms. Fret",
+            "speciality": "Guitar"
+        }
+    ],
+    "attendance": [],
+    "next_student_id": 1,
+    "next_teacher_id": 3
+}

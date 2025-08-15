@@ -24,7 +24,7 @@ def search_records(records, term, keys):
             value = str(record[key]).lower()
             if term in value:
                 match_found = True
-                break  # No need to check other keys for this record
+                break  # No need to check other keys for this record directly returen the data and let it be ;printed
         if match_found:
             results.append(record)
 
@@ -166,8 +166,8 @@ def update_teacher(teacher_id, **fields):
     # TODO: Loop through the app_data['teachers'] list.
     teacher = find_by_id(app_data['teachers'], teacher_id)
      # TODO: If a teacher's 'id' matches teacher_id:
-    if teacher['id'] == teacher_id:
-        # Use the .update() method on the teacher dictionary to apply the 'fields'.
+    if teacher['id'] == teacher_id or teacher['id'] ==None:
+        # Use the .update() method on the teacher dictionary to apply the 'fields' and the fields accepet list.
         teacher.update(fields)
         print(f"Teacher {teacher_id} updated.")
         save_data()
@@ -298,7 +298,7 @@ def front_desk_enrol(student_id, instrument):
     else:
         print(f"Error: Student ID {student_id} not found.")
         # TODO: If the student is not found, print an error message like "Error: Student ID not found."
-        
+  
 def front_desk_lookup(term):
     """High-level function to search everything."""
     print(f"\n--- Performing lookup for '{term}' ---")
@@ -321,8 +321,9 @@ def show_attendance(student_id=None, course_id=None):
         course_id: only show this course's records
     """
     print("\n--- Attendance Records ---")
+    #set the default
     records_found = False
-
+    #loop through attdance dictionary 
     for record in app_data["attendance"]:
         # Filter by student_id if provided
         if student_id is not None and record["student_id"] != student_id:
@@ -335,7 +336,7 @@ def show_attendance(student_id=None, course_id=None):
               f"Course: {record['course_id']}, "
               f"Time: {record['timestamp']}")
         records_found = True
-
+    #I have no better ways but have to creat a new variable, it should go through the list and check each block 
     if not records_found:
         print("No attendance records found.")
 
