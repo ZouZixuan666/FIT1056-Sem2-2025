@@ -108,7 +108,7 @@ The program supports:
 6. Update Teacher Info
 7. (Admin) List all Students
 8. (Admin) List all Teachers
-9. (Admin) Remove student
+9. (Admin) Remove student\n
 a. (Admin) Remove teacher
 b. (Admin) Add teacher
 c. Show today's attendance
