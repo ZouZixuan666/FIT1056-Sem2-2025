@@ -72,46 +72,45 @@ The program supports:
 
 ### Data Storage Format (msms.json)
 {
----
+
     "students": [
-    ---
+
         {
-        ---
+
             "id": 1,
             "name": "Alice",
             "enrolled_in": ["Violin"]
         }
-        ---
+
     ],
-    ---
+
     "teachers": [
-    ---
+
         {
-        ---
+
             "id": 1,
             "name": "Dr. Keys",
             "speciality": "Piano"
         }
-        ---
+
     ],
-    ---
+
     "attendance": [
-    ---
+
         {
-        ---
+
             "student_id": 1,
             "course_id": "Violin",
             "timestamp": "2025-08-15T10:00:00"
         }
-        ---
+
     ],
-    ---
+
     "next_student_id": 2,
-    ---
+
     "next_teacher_id": 2
-    ---
+
 }
----
 
 ### Main Menu Options
 
