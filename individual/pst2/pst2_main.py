@@ -167,7 +167,7 @@ def update_teacher(teacher_id, **fields):
     teacher = find_by_id(app_data['teachers'], teacher_id)
      # TODO: If a teacher's 'id' matches teacher_id:
     if teacher['id'] == teacher_id or teacher['id'] ==None:
-        # Use the .update() method on the teacher dictionary to apply the 'fields' and the fields accepet list.
+        # Use the .update() method on the teacher dictionary to apply the 'fields' and the fields accepet dictionary.
         teacher.update(fields)
         print(f"Teacher {teacher_id} updated.")
         save_data()
