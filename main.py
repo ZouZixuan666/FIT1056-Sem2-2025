@@ -53,7 +53,7 @@ def main():
         print("e. Show Daily Roster")
         print("f. Switch Student Between Courses")
         print("g. add a course")
-        print("h. List all Courses")
+        print("h. （Admin）List all Courses")
         print("q. Quit")
 
         choice = input("Enter your choice: ").lower()
