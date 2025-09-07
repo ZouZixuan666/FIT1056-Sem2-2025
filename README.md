@@ -2,16 +2,25 @@
 It surpot registration of students and teachers, enrolment in instruments, listing, searching, and administrative operations like adding or removing records.
 
 ## Project Structure ##
-  pst2/
+pst2/
+
 ├── app/
+
 │   ├── __init__.py
+
 │   ├── user.py         # Base User class
+
 │   ├── student.py      # StudentUser class
+
 │   ├── teacher.py      # TeacherUser + Course class
+
 │   └── schedule.py     # ScheduleManager (core business logic)
+
 ├── data/
 │   └── msms.json       # JSON database (students, teachers, courses, attendance)
+
 ├── main.py             # CLI entry point (front desk interface)
+
 └── README.md           # Documentation
 
 ## How to Run the Program ###
@@ -117,6 +126,8 @@ Admin Functions：
 
 ### Data Storage Format (msms.json)
 {
+
+
     "students": [
         {
             "id": 1,
@@ -210,6 +221,8 @@ Admin Functions：
             "timestamp": "2025-07-14T16:02:45.654321"
         }
     ]
+
+    
 }
 
 ===== MSMS v3 (Object-Oriented) =====
