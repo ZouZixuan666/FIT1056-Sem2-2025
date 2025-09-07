@@ -5,12 +5,13 @@ import json
 from app.student import StudentUser
 from app.teacher import TeacherUser, Course
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_FILE = os.path.join(BASE_DIR, "msms.json")   
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(BASE_DIR, "data")  # points to BASE_DIR/data
+DATA_FILE = os.path.join(DATA_DIR, "msms.json")  # points to BASE_DIR/data/msms.json 
 
 class ScheduleManager:
     """The main controller for all business logic and data handling."""
-    def __init__(self, data_path="pst2/data/msms.json"):
+    def __init__(self, data_path=DATA_FILE):
         self.data_path = data_path
         self.students = []
         self.teachers = []
@@ -66,17 +67,17 @@ class ScheduleManager:
         with open(self.data_path, 'w') as f:
             json.dump(data_to_save, f, indent=4)
      
-    def clear_local_files():
+    def clear_local_files(self):
         
         """Deletes all program-generated local files (msms.json and student cards) inside pst2 folder."""
         files_deleted = 0
 
     # Delete msms.json if it exists
-        data_file_path = os.path.join(BASE_DIR, DATA_FILE)
-        if os.path.exists(data_file_path):
-            os.remove(data_file_path)
+
+        if os.path.exists(self.data_path):
+            os.remove(self.data_path)
             files_deleted += 1
-            print(f"Deleted {data_file_path}")
+            print(f"Deleted {self.data_path}")
 
     # Delete all student card files (*.txt with _card naming) inside pst2
         for file_path in glob.glob(os.path.join(BASE_DIR, "*_card.txt")):
