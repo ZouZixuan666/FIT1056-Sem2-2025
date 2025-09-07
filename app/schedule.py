@@ -102,7 +102,7 @@ class ScheduleManager:
         self.next_teacher_id += 1
         self._save_data()
         return teacher
-
+    
     def list_teachers(self):
         return self.teachers
 
