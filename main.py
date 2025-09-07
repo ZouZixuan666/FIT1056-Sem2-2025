@@ -66,8 +66,13 @@ def main():
 
             case "2":
                 # Enrol existing student into a course
-                sid = int(input("Enter student ID: "))
-                course_id = int(input("Enter course ID: "))
+                try:
+                    sid = int(input("Enter student ID: "))
+                    course_id = int(input("Enter course ID: "))
+                except ValueError:
+                    print(" Invalid input. Please enter numeric IDs only.")
+                    break
+
                 if manager.enrol_existing_student(sid, course_id):
                     print("Enrolled successfully.")
                 else:
