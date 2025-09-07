@@ -102,10 +102,10 @@ class ScheduleManager:
         self.next_teacher_id += 1
         self._save_data()
         return teacher
-    
+    #retrun the __repr__ formated output
     def list_teachers(self):
         return self.teachers
-
+    
     def remove_teacher(self, teacher_id):
         before = len(self.teachers)
         self.teachers = [t for t in self.teachers if t.id != teacher_id]

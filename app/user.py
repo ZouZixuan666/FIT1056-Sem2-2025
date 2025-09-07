@@ -1,6 +1,6 @@
 class User:
     """A base class for all users in the system."""
-    def __init__(self, id, name):  # accept id, not user_id
+    def __init__(self, id, name):  # accept id
         self.id = id
         self.name = name
 

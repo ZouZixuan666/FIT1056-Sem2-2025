@@ -4,8 +4,8 @@
             "id": 1,
             "name": "Alice Johnson",
             "enrolled_course_ids": [
-                103,
-                102
+                101,
+                103
             ]
         },
         {
@@ -14,23 +14,18 @@
             "enrolled_course_ids": [
                 102
             ]
-        },
-        {
-            "id": 3,
-            "name": "ew",
-            "enrolled_course_ids": []
         }
     ],
     "teachers": [
         {
+            "id": 1,
+            "name": "Dr. Evelyn Keys",
+            "speciality": "Piano"
+        },
+        {
             "id": 2,
             "name": "Mr. David Fret",
             "speciality": "Guitar"
-        },
-        {
-            "id": 3,
-            "name": "weq",
-            "speciality": "qe"
         }
     ],
     "courses": [
@@ -39,14 +34,15 @@
             "name": "Beginner Piano",
             "instrument": "Piano",
             "teacher_id": 1,
-            "enrolled_student_ids": [],
+            "enrolled_student_ids": [
+                1
+            ],
             "lessons": [
                 {
                     "lesson_id": 1,
                     "day": "Monday",
                     "start_time": "16:00",
-                    "room": "Room A",
-                    "course_id": 101
+                    "room": "Room A"
                 },
                 {
                     "lesson_id": 2,
@@ -62,9 +58,7 @@
             "instrument": "Guitar",
             "teacher_id": 2,
             "enrolled_student_ids": [
-                2,
-                4,
-                1
+                2
             ],
             "lessons": [
                 {
@@ -84,19 +78,8 @@
                 1
             ],
             "lessons": []
-        },
-        {
-            "id": 104,
-            "name": "weq",
-            "instrument": "eqe",
-            "teacher_id": 2,
-            "enrolled_student_ids": [],
-            "lessons": []
         }
     ],
-    "next_student_id": 5,
-    "next_teacher_id": 4,
-    "next_course_id": 105,
     "attendance": [
         {
             "student_id": 1,
@@ -107,11 +90,6 @@
             "student_id": 2,
             "course_id": 102,
             "timestamp": "2025-07-14T16:02:45.654321"
-        },
-        {
-            "student_id": 2,
-            "course_id": "101",
-            "timestamp": "2025-09-07T20:56:52.677759"
         }
     ]
 }
