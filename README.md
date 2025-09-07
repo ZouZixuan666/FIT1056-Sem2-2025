@@ -68,7 +68,7 @@ Lookup：
 - Search for students and teachers by name or speciality
 
 Admin Functions：
-- Protected by password (123)
+- Protected by hashed password (123)
 - List all students/teachers
 - Remove students/teachers
 - Clear local files (reset database and student cards)
