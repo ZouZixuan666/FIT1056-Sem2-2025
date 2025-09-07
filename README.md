@@ -35,7 +35,7 @@ pst2/
    
 2. **Then run  pst2_main.py and feel free to test it on**
 
-**Even better download the .rar files extract it and run it full locally**
+
 
 ## Features
 
