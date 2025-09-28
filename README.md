@@ -291,7 +291,7 @@ Admin Functions：
 
     
 }
-
+Command-Line Interface:
 1. Register New Student
 2. Enrol Existing Student
 3. Lookup Student or Teacher
