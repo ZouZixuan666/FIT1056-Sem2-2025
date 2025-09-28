@@ -1,27 +1,39 @@
   This **Music School Management System** is designed to simulate the front desk operations of a music school. 
+Overview
+It provides both a Command-Line Interface (CLI) and a Streamlit GUI to manage:
+  Students
+
+  Teachers
+
+  Courses
+
+  Daily Rosters
+
+  Attendance / Check-ins
+
+  (Upcoming) Payments
 It surpot registration of students and teachers, enrolment in instruments, listing, searching, and administrative operations like adding or removing records.
 
 ## Project Structure ##
-pst2/
-
-├── app/
-
-│   ├── __init__.py
-
-│   ├── user.py         # Base User class
-
-│   ├── student.py      # StudentUser class
-
-│   ├── teacher.py      # TeacherUser + Course class
-
-│   └── schedule.py     # ScheduleManager (core business logic)
-
-├── data/
-│   └── msms.json       # JSON database (students, teachers, courses, attendance)
-
-├── main.py             # CLI entry point (front desk interface)
-
-└── README.md           # Documentation
+FIT1056-Sem2-2025/
+│── app/
+│   └── schedule.py          # Core ScheduleManager (students, teachers, courses, attendance)
+│
+│── gui/
+│   ├── main_dashboard.py    # Streamlit navigation & layout
+│   ├── welcome_page.py      # Welcome / landing page
+│   ├── student_pages.py     # Student management UI
+│   ├── roster_pages.py      # Daily roster + check-in UI
+│   ├── course_pages.py      # Course management UI
+│   └── admin_pages.py       # Admin-only features
+│
+│── data/
+│   └── *.json / *.csv       # Saved student, teacher, attendance data
+│
+│── cli_main.py              # CLI interface
+│── main.py                  # Streamlit entry point
+│── requirements.txt         # Dependencies
+│── README.md                # This file
 
 ## How to Run the Program ###
 
@@ -33,9 +45,40 @@ pst2/
    
    git switch individual
    
-2. **Then run  pst2_main.py and feel free to test it on**
+2.**Create a virtual environment:**
 
+  python -m venv .venv
+  Activate it.
 
+  Install dependencies:
+
+  pip install -r requirements.txt
+
+**Usage**
+
+  Option 1 — Streamlit GUI (recommended)
+  
+  Run:
+  
+  streamlit run main.py
+  
+  
+  Navigate using the sidebar.
+  
+  Start at the Welcome Page.
+  
+  Use Student Management, Daily Roster, Admin Tools, Course Management, etc.
+  
+  Admin password is 123 (hashed in code).
+  
+  Option 2 — CLI Mode
+  
+  Run:
+  
+  python cli_main.py
+  
+  
+  This gives a text-based menu for student, teacher, and course operations.
 
 ## Features
 
@@ -63,6 +106,10 @@ Course & Lesson Scheduling：
 Attendance Tracking：
 - Student check-in for lessons
 - View attendance logs
+
+Future (PST5):
+- Payments management
+- Enhanced reporting
 
 Lookup：
 - Search for students and teachers by name or speciality
