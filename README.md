@@ -1,17 +1,17 @@
   This **Music School Management System** is designed to simulate the front desk operations of a music school. 
 Overview
 It provides both a Command-Line Interface (CLI) and a Streamlit GUI to manage:
-  Students
+  - Students
 
-  Teachers
+  - Teachers
 
-  Courses
+  - Courses
 
-  Daily Rosters
+  - Daily Rosters
 
-  Attendance / Check-ins
+  - Attendance / Check-ins
 
-  (Upcoming) Payments
+  - (Upcoming) Payments
 It surpot registration of students and teachers, enrolment in instruments, listing, searching, and administrative operations like adding or removing records.
 
 ## Project Structure ##
