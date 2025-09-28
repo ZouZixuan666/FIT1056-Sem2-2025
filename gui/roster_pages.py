@@ -8,7 +8,7 @@ def show_roster_page(manager):
 
     # --- View Roster Section (remains the same) ---
     day = st.selectbox("Select a day", ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"])
-    # ... (code to display the dataframe) ...
+
     
     # --- Student Check-in Section (now works correctly) ---
     st.subheader("Student Check-in")
@@ -27,12 +27,31 @@ def show_roster_page(manager):
             # Convert the selected names back to IDs
             student_id = student_list[selected_student_name]
             course_id = course_list[selected_course_name]
+            
+            result = manager.check_in(student_id, course_id)
 
-            # This call now works because we implemented the method in PST3.
-            success = manager.check_in(student_id, course_id)
+            if result["status"] == "ok":
+                st.success(
+                    f"{selected_student_name} checked in for {selected_course_name} "
+                    f"at {result['record']['timestamp']}"
+                )
 
-            if success:
-                st.success(f"Checked in {selected_student_name} for {selected_course_name}!")
+            elif result["status"] == "duplicate":
+                existing = result["existing"]
+                st.warning(
+                    f" {selected_student_name} has **already checked into {selected_course_name} today** "
+                    f"(at {existing.get('timestamp')}).\n\n"
+                    "Each student can only check in **once per day per class**."
+                )
+
+            elif result["status"] == "not_enrolled":
+                st.error(f" {selected_student_name} is not enrolled in {selected_course_name}. Enrol them first.")
+
+            elif result["status"] == "no_student":
+                st.error("Student not found.")
+
+            elif result["status"] == "no_course":
+                st.error(" Course not found.")
+
             else:
-                # The manager's print statements will go to the console, but we can add a GUI error too.
-                st.error("Check-in failed. See console for details. (Is the student enrolled in that course?)")
+                st.error(" Unknown error when checking in.")

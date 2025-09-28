@@ -149,6 +149,7 @@ class ScheduleManager:
         """Enrol an existing student in a new course by ID."""
         student = self.find_student_by_id(student_id)
         course = self.find_course_by_id(course_id)
+        
         if not student or not course:
             return False
         if course_id not in student.enrolled_course_ids:
@@ -191,14 +192,53 @@ class ScheduleManager:
         return students, teachers
 
     # ----------------- Attendance -----------------
+    import datetime
+
     def check_in(self, student_id, course_id):
-        ts = datetime.datetime.now().isoformat()
-        if not self.find_student(student_id):
-            return None
+        """
+        Check a student into a course.
+        - Student can check into multiple courses on the same day.
+        - Only one check-in per student per course per day.
+        Returns dict with 'status'.
+        """
+        course = self.find_course_by_id(course_id)
+        if not course:
+            return {"status": "no_course"}
+
+        student = self.find_student(student_id)
+        if not student:
+            return {"status": "no_student"}
+
+        if student_id not in course.enrolled_student_ids:
+            return {"status": "not_enrolled"}
+
+        now = datetime.datetime.now()
+        today = now.date().isoformat()
+
+        # Check for duplicate in the same course on the same day
+        for rec in getattr(self, "attendance_log", []):
+            rec_date = rec.get("timestamp", "").split("T", 1)[0]
+            if (
+                rec.get("student_id") == student_id
+                and rec.get("course_id") == course_id
+                and rec_date == today
+            ):
+                return {"status": "duplicate", "existing": rec}
+
+        # Create new record
+        ts = now.isoformat()
         record = {"student_id": student_id, "course_id": course_id, "timestamp": ts}
+        if not hasattr(self, "attendance_log"):
+            self.attendance_log = []
         self.attendance_log.append(record)
-        self._save_data()
-        return record
+
+        try:
+            self._save_data()
+        except Exception:
+            pass
+
+        return {"status": "ok", "record": record}
+
 
     def show_attendance(self, student_id=None, course_id=None):
         results = []
