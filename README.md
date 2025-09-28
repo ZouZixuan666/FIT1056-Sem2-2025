@@ -15,27 +15,45 @@ It provides both a Command-Line Interface (CLI) and a Streamlit GUI to manage:
 It surpot registration of students and teachers, enrolment in instruments, listing, searching, and administrative operations like adding or removing records.
 
 ## Project Structure ##
-{FIT1056-Sem2-2025/
+FIT1056-Sem2-2025/
 
 │── app/
+
 │   └── schedule.py          # Core ScheduleManager (students, teachers, courses, attendance)
+
 │
+
 │── gui/
+
 │   ├── main_dashboard.py    # Streamlit navigation & layout
+
 │   ├── welcome_page.py      # Welcome / landing page
+
 │   ├── student_pages.py     # Student management UI
+
 │   ├── roster_pages.py      # Daily roster + check-in UI
+
 │   ├── course_pages.py      # Course management UI
+
 │   └── admin_pages.py       # Admin-only features
+
 │
+
 │── data/
+
 │   └── *.json / *.csv       # Saved student, teacher, attendance data
+
 │
+
 │── cli_main.py              # CLI interface
+
 │── main.py                  # Streamlit entry point
+
 │── requirements.txt         # Dependencies
+
 │── README.md                # This file
-}
+
+
 ## How to Run the Program ###
 
 1. **Clone the repo:**
