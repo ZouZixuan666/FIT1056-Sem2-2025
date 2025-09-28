@@ -15,7 +15,8 @@ It provides both a Command-Line Interface (CLI) and a Streamlit GUI to manage:
 It surpot registration of students and teachers, enrolment in instruments, listing, searching, and administrative operations like adding or removing records.
 
 ## Project Structure ##
-FIT1056-Sem2-2025/
+{FIT1056-Sem2-2025/
+
 │── app/
 │   └── schedule.py          # Core ScheduleManager (students, teachers, courses, attendance)
 │
@@ -34,51 +35,51 @@ FIT1056-Sem2-2025/
 │── main.py                  # Streamlit entry point
 │── requirements.txt         # Dependencies
 │── README.md                # This file
-
+}
 ## How to Run the Program ###
 
 1. **Clone the repo:**
    
-   bash
+    bash
    
-   git clone https://github.com/ZouZixuan666/FIT1056-Sem2-2025.git
+    git clone https://github.com/ZouZixuan666/FIT1056-Sem2-2025.git
    
-   git switch individual
+    git switch individual
    
-2.**Create a virtual environment:**
+2. **Create a virtual environment:**
 
-  python -m venv .venv
-  Activate it.
-
-  Install dependencies:
-
-  pip install -r requirements.txt
+    python -m venv .venv
+    Activate it.
+  
+    Install dependencies:
+  
+    pip install -r requirements.txt
 
 **Usage**
 
-  Option 1 — Streamlit GUI (recommended)
-  
-  Run:
-  
-  streamlit run main.py
-  
-  
-  Navigate using the sidebar.
-  
-  Start at the Welcome Page.
-  
-  Use Student Management, Daily Roster, Admin Tools, Course Management, etc.
-  
-  Admin password is 123 (hashed in code).
-  
-  Option 2 — CLI Mode
-  
-  Run:
-  
-  python cli_main.py
-  
-  
-  This gives a text-based menu for student, teacher, and course operations.
+    Option 1 — Streamlit GUI (recommended)
+    
+    Run:
+    
+    streamlit run main.py
+    
+    
+    Navigate using the sidebar.
+    
+    Start at the Welcome Page.
+    
+    Use Student Management, Daily Roster, Admin Tools, Course Management, etc.
+    
+    Admin password is 123 (hashed in code).
+    
+    Option 2 — CLI Mode
+    
+    Run:
+    
+    python cli_main.py
+    
+    
+    This gives a text-based menu for student, teacher, and course operations.
 
 ## Features
 
