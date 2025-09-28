@@ -223,6 +223,11 @@
             "student_id": 1,
             "course_id": 101,
             "timestamp": "2025-09-28T16:52:52.895036"
+        },
+        {
+            "student_id": 1,
+            "course_id": 101,
+            "timestamp": "2025-09-28T16:54:40.925758"
         }
     ]
 }

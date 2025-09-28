@@ -297,28 +297,7 @@ class ScheduleManager:
                 return course
         return None
 
-    # Attendance
-    def check_in(self, student_id: int, course_id: int) -> bool:
-        """Records a student's attendance for a course after validation."""
-        student = self.find_student_by_id(student_id)
-        course = self.find_course_by_id(course_id)
-
-        if not student or not course:
-            print("Error: Check-in failed. Invalid Student or Course ID.")
-            return False
-
-        timestamp = datetime.datetime.now().isoformat()
-        check_in_record = {
-            "student_id": student_id,
-            "course_id": course_id,
-            "timestamp": timestamp
-        }
-
-        self.attendance_log.append(check_in_record)
-        self._save_data()
-        print(f"Success: Student {student.name} checked into {course.name}.")
-        return True
-
+   
     # Scheduling
 
     def get_lessons_by_day(self, day: str):
