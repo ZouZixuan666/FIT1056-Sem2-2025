@@ -13,7 +13,7 @@ def show_welcome_page():
         - **Daily Roster** → View and check-in students for today’s classes.
         - **Course Management** → Add courses and switch students between them.
         - **Admin Tools** → Secure area for listing/removing/adding teachers, students, and courses.
-        - **Payments ** → Manage tuition and payments.
+        - **Payments** → Manage tuition and payments.
         ---
         """
     )

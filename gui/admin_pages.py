@@ -13,17 +13,22 @@ def show_admin_tools_page(manager):
     # --- Authentication ---
     if "admin_authenticated" not in st.session_state:
         st.session_state.admin_authenticated = False
-
+    if st.session_state["admin_authenticated"]:
+        show_admin_panel(manager)
+        return
     if not st.session_state.admin_authenticated:
         pwd = st.text_input("Enter admin password", type="password")
         if st.button("Authenticate"):
             if authenticate(pwd):
                 st.session_state.admin_authenticated = True
-                st.success("Admin authenticated ✅")
+                st.success("Admin authenticated.")
+                show_admin_panel(manager)
             else:
                 st.error("Wrong password")
         st.stop()  # stop rendering the rest until authenticated
-
+def show_admin_panel(manager):
+    st.subheader("Admin Control Panel")
+    st.write("Welcome — you are authenticated.")
     # --- Secondary menu: choose an admin function ---
     st.markdown("### Choose an admin action")
     action = st.selectbox(
@@ -157,8 +162,9 @@ def show_admin_tools_page(manager):
     # --- Footer: allow logging out of admin session ---
     st.markdown("---")
     if st.button("Log out admin"):
+        st.session_state["admin_authenticated"] = False
         st.session_state.admin_authenticated = False
-        # the button click will automatically trigger a rerun, so we can just return.
+        # the button click will rerun, so we can just return.
         if hasattr(st, "experimental_rerun"):
             st.experimental_rerun()
         else:
