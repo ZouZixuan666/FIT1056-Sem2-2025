@@ -12,6 +12,7 @@ It provides both a Command-Line Interface (CLI) and a Streamlit GUI to manage:
   - Attendance / Check-ins
 
   - (Upcoming) Payments
+    
 It surpot registration of students and teachers, enrolment in instruments, listing, searching, and administrative operations like adding or removing records.
 
 ## Project Structure ##
