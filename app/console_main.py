@@ -2,6 +2,7 @@ from app.schedule import ScheduleManager
 from gui.main_dashboard import launch
 import hashlib
 def front_desk_daily_roster(manager, day):
+    
     print(f"\n--- Daily Roster for {day} ---")
     lessons = manager.get_lessons_by_day(day)
     if not lessons:
