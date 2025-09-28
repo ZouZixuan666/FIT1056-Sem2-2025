@@ -21,12 +21,12 @@ def show_student_management_page(manager):
             # This call now works because we implemented the method in PST3.
             # TODO: Add a check for blank name/instrument.
             
-            if reg_name and reg_instrument:
-                new_student = manager.register_new_student(reg_name, reg_instrument)
+            if reg_name.strip() and reg_instrument.strip():
+                new_student = manager.register_new_student(reg_name.strip(), reg_instrument.strip())
                 if new_student:
-                    st.success(f"Successfully registered {reg_name}!")
+                    st.success(f"Successfully registered {reg_name.strip()}!")
                     # You can use st.balloons() for extra flair.
                 else:
-                    st.error(f"Could not register student. A teacher for {reg_instrument} might not be available.")
+                    st.error(f"Could not register student. A teacher for {reg_instrument.strip()} might not be available.")
             else:
                 st.warning("Please enter both a name and an instrument.")
