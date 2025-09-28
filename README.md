@@ -291,7 +291,6 @@ Admin Functions：
     
 }
 
-===== MSMS v3 (Object-Oriented) =====
 1. Register New Student
 2. Enrol Existing Student
 3. Lookup Student or Teacher
@@ -301,15 +300,25 @@ Admin Functions：
 7. (Admin) List all Students
 8. (Admin) List all Teachers
 9. (Admin) Remove student
+    
 a. (Admin) Remove teacher
+
 b. (Admin) Add teacher
+
 c. Show today's attendance
+
 d. Clear all the local files
+
 e. Show Daily Roster
+
 f. Switch Student Between Courses
+
 g. add a course
+
 h. (Admin）List all Courses
+
 q. Quit
+
 ## Warning ##
 1. Admin Authentication
    To access these functions, you must authenticate as an admin:
