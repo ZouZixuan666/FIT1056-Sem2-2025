@@ -126,7 +126,7 @@ class ScheduleManager:
         return True
 
     # ----------------- Students -----------------
-    def register_student(self, name: str) -> StudentUser:
+    def register_student(self, name: str, instrument: str | None = None) -> StudentUser:
         """Create a new student (no enrolment)."""
         if not name.strip():
             return None
