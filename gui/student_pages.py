@@ -22,7 +22,7 @@ def show_student_management_page(manager):
             # TODO: Add a check for blank name/instrument.
             
             if reg_name.strip() and reg_instrument.strip():
-                new_student = manager.register_new_student(reg_name.strip(), reg_instrument.strip())
+                new_student = manager.register_student(reg_name.strip(), reg_instrument.strip())
                 if new_student:
                     st.success(f"Successfully registered {reg_name.strip()}!")
                     # You can use st.balloons() for extra flair.

@@ -1,41 +1,104 @@
   This **Music School Management System** is designed to simulate the front desk operations of a music school. 
+Overview
+It provides both a Command-Line Interface (CLI) and a Streamlit GUI to manage:
+  - Students
+
+  - Teachers
+
+  - Courses
+
+  - Daily Rosters
+
+  - Attendance / Check-ins
+
+  - (Upcoming) Payments
+    
 It surpot registration of students and teachers, enrolment in instruments, listing, searching, and administrative operations like adding or removing records.
 
 ## Project Structure ##
-pst2/
+FIT1056-Sem2-2025/
 
-├── app/
+│── app/
 
-│   ├── __init__.py
+│   └── schedule.py          # Core ScheduleManager (students, teachers, courses, attendance)
 
-│   ├── user.py         # Base User class
+│
 
-│   ├── student.py      # StudentUser class
+│── gui/
 
-│   ├── teacher.py      # TeacherUser + Course class
+│   ├── main_dashboard.py    # Streamlit navigation & layout
 
-│   └── schedule.py     # ScheduleManager (core business logic)
+│   ├── welcome_page.py      # Welcome / landing page
 
-├── data/
-│   └── msms.json       # JSON database (students, teachers, courses, attendance)
+│   ├── student_pages.py     # Student management UI
 
-├── main.py             # CLI entry point (front desk interface)
+│   ├── roster_pages.py      # Daily roster + check-in UI
 
-└── README.md           # Documentation
+│   ├── course_pages.py      # Course management UI
+
+│   └── admin_pages.py       # Admin-only features
+
+│
+
+│── data/
+
+│   └── *.json / *.csv       # Saved student, teacher, attendance data
+
+│
+
+│── cli_main.py              # CLI interface
+
+│── main.py                  # Streamlit entry point
+
+│── requirements.txt         # Dependencies
+
+│── README.md                # This file
+
 
 ## How to Run the Program ###
 
 1. **Clone the repo:**
    
-   bash
+    bash
    
-   git clone https://github.com/ZouZixuan666/FIT1056-Sem2-2025.git
+    git clone https://github.com/ZouZixuan666/FIT1056-Sem2-2025.git
    
-   git switch individual
+    git switch individual
    
-2. **Then run  pst2_main.py and feel free to test it on**
+2. **Create a virtual environment:**
 
+    python -m venv .venv
+    Activate it.
+  
+    Install dependencies:
+  
+    pip install -r requirements.txt
 
+**Usage**
+
+    Option 1 — Streamlit GUI (recommended)
+    
+    Run:
+    
+    streamlit run main.py
+    
+    
+    Navigate using the sidebar.
+    
+    Start at the Welcome Page.
+    
+    Use Student Management, Daily Roster, Admin Tools, Course Management, etc.
+    
+    Admin password is 123 (hashed in code).
+    
+    Option 2 — CLI Mode
+    
+    Run:
+    
+    python cli_main.py
+    
+    
+    This gives a text-based menu for student, teacher, and course operations.
 
 ## Features
 
@@ -63,6 +126,10 @@ Course & Lesson Scheduling：
 Attendance Tracking：
 - Student check-in for lessons
 - View attendance logs
+
+Future (PST5):
+- Payments management
+- Enhanced reporting
 
 Lookup：
 - Search for students and teachers by name or speciality
@@ -224,8 +291,7 @@ Admin Functions：
 
     
 }
-
-===== MSMS v3 (Object-Oriented) =====
+Command-Line Interface:
 1. Register New Student
 2. Enrol Existing Student
 3. Lookup Student or Teacher
@@ -235,15 +301,25 @@ Admin Functions：
 7. (Admin) List all Students
 8. (Admin) List all Teachers
 9. (Admin) Remove student
+    
 a. (Admin) Remove teacher
+
 b. (Admin) Add teacher
+
 c. Show today's attendance
+
 d. Clear all the local files
+
 e. Show Daily Roster
+
 f. Switch Student Between Courses
+
 g. add a course
+
 h. (Admin）List all Courses
+
 q. Quit
+
 ## Warning ##
 1. Admin Authentication
    To access these functions, you must authenticate as an admin:
