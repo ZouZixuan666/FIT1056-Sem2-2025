@@ -1,9 +1,11 @@
+import csv
 import os
 import datetime
 import glob
 import json
 from app.student import StudentUser
 from app.teacher import TeacherUser, Course
+import logging
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, "data")  # points to BASE_DIR/data
@@ -18,6 +20,7 @@ class ScheduleManager:
         self.courses = []
         # TODO: Initialize the new attendance_log attribute as an empty list.
         self.attendance_log = []
+        self.finance_log = []
         self.next_student_id = 1
         self.next_teacher_id = 1
         self.next_course_id = 1
@@ -37,6 +40,7 @@ class ScheduleManager:
                 self.students = [StudentUser(**s) for s in data.get("students", [])]
                 self.teachers = [TeacherUser(**t) for t in data.get("teachers", [])]
                 self.courses = [Course(**c) for c in data.get("courses", [])]
+                self.finance_log = data.get("finance", [])
                 self.attendance_log = data.get("attendance", [])
                 if self.students:
                     self.next_student_id = max(s.id for s in self.students) + 1
@@ -57,6 +61,7 @@ class ScheduleManager:
             "courses": [c.__dict__ for c in self.courses],
             # TODO: Add the attendance_log to the dictionary to be saved.
             # Since it's already a list of dicts, no conversion is needed.
+            "finance": self.finance_log,
             "next_student_id": self.next_student_id,
             "next_teacher_id": self.next_teacher_id,
             "next_course_id": self.next_course_id,
@@ -107,13 +112,69 @@ class ScheduleManager:
         return self.teachers
     
     def remove_teacher(self, teacher_id):
+        
         before = len(self.teachers)
         self.teachers = [t for t in self.teachers if t.id != teacher_id]
         if len(self.teachers) < before:
             self._save_data()
+            logging.info(f"Teacher {teacher_id} removed")
             return True
+        
         return False
 
+    def record_payment(self, student_id, amount, method):
+        """Adds a payment record to the finance log."""
+        # TODO: Find the student to ensure they exist.
+        # Create a payment dictionary with student_id, amount, method, and a timestamp.
+        
+        student = self.find_student_by_id(student_id)
+        if not student:
+            print(f"Error: Student {student_id} not found.")
+            return
+        payment_record = {
+            "student_id": student_id,
+            "amount": amount,
+            "method": method,
+            "timestamp": datetime.datetime.now().isoformat()
+        }
+        # TODO: Append the record to self.finance_log and save the data.
+        self.finance_log.append(payment_record)
+        self._save_data()
+        logging.info(f"Payment recorded for student {student_id}: {amount}")
+        print(f"Payment of {amount} for student {student_id} recorded.")
+
+    def get_payment_history(self, student_id):
+        """Returns a list of all payments for a given student."""
+        # TODO: Use a list comprehension to filter self.finance_log
+        # and return only the records that match the student_id.
+        return [p for p in self.finance_log if p['student_id'] == student_id]
+
+    def export_report(self, kind, out_path):
+        print(f"Exporting {kind} report to {out_path}...")
+        if kind == "finance":
+            data_to_export = self.finance_log
+            headers = ["student_id", "amount", "method", "timestamp"]
+        elif kind == "attendance":
+            data_to_export = self.attendance_log
+            headers = ["student_id", "course_id", "timestamp"]
+        else:
+            print("Error: Unknown report type.")
+            return
+
+        with open(out_path, 'w', newline='') as f:
+            writer = csv.DictWriter(f, fieldnames=headers)
+            writer.writeheader()
+            writer.writerows(data_to_export)
+        print(f"{kind.capitalize()} report exported successfully.")
+
+        # TODO: Use Python's 'csv' module to write the data.
+        # Open the file, create a csv.DictWriter, write the header, then write all the rows.
+        # with open(out_path, 'w', newline='') as f:
+        #     writer = csv.DictWriter(f, fieldnames=headers)
+        #     writer.writeheader()
+        #     writer.writerows(data_to_export)
+
+        # ... inside ScheduleManager class ...
     def update_teacher(self, teacher_id, **fields):
         t = next((t for t in self.teachers if t.id == teacher_id), None)
         if not t:
@@ -128,12 +189,14 @@ class ScheduleManager:
     # ----------------- Students -----------------
     def register_student(self, name: str, instrument: str | None = None) -> StudentUser:
         """Create a new student (no enrolment)."""
+        
         if not name.strip():
             return None
         student = StudentUser(self.next_student_id, name.strip())
         self.students.append(student)
         self.next_student_id += 1
         self._save_data()
+        logging.info(f"New student registered: {name} (ID {self.next_student_id})")
         return student
 
     def enrol_student(self, name: str, course_id: int):
@@ -163,10 +226,12 @@ class ScheduleManager:
         return self.students
 
     def remove_student(self, student_id):
+        
         before = len(self.students)
         self.students = [s for s in self.students if s.id != student_id]
         if len(self.students) < before:
             self._save_data()
+            logging.info(f"Student {student_id} removed")
             return True
         return False
 

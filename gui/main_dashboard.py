@@ -100,4 +100,3 @@ def launch():
         show_admin_tools_page(st.session_state.manager)
     elif page == "Payments (stub)":
         st.header("Payments")
-        st.warning("This feature will be implemented in PST5.")

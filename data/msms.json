@@ -14,11 +14,6 @@
             "enrolled_course_ids": [
                 102
             ]
-        },
-        {
-            "id": 3,
-            "name": "s",
-            "enrolled_course_ids": []
         }
     ],
     "teachers": [
@@ -85,9 +80,6 @@
             "lessons": []
         }
     ],
-    "next_student_id": 4,
-    "next_teacher_id": 3,
-    "next_course_id": 104,
     "attendance": [
         {
             "student_id": 1,
@@ -98,146 +90,6 @@
             "student_id": 2,
             "course_id": 102,
             "timestamp": "2025-07-14T16:02:45.654321"
-        },
-        {
-            "student_id": 2,
-            "course_id": 102,
-            "timestamp": "2025-09-28T15:00:28.110181"
-        },
-        {
-            "student_id": 1,
-            "course_id": 103,
-            "timestamp": "2025-09-28T15:00:34.955423"
-        },
-        {
-            "student_id": 1,
-            "course_id": 101,
-            "timestamp": "2025-09-28T15:00:41.123464"
-        },
-        {
-            "student_id": 1,
-            "course_id": 101,
-            "timestamp": "2025-09-28T15:00:42.357603"
-        },
-        {
-            "student_id": 1,
-            "course_id": 101,
-            "timestamp": "2025-09-28T15:00:43.042286"
-        },
-        {
-            "student_id": 1,
-            "course_id": 101,
-            "timestamp": "2025-09-28T15:00:46.329450"
-        },
-        {
-            "student_id": 1,
-            "course_id": 101,
-            "timestamp": "2025-09-28T15:20:09.440966"
-        },
-        {
-            "student_id": 1,
-            "course_id": 101,
-            "timestamp": "2025-09-28T15:20:10.101822"
-        },
-        {
-            "student_id": 1,
-            "course_id": 101,
-            "timestamp": "2025-09-28T15:20:10.896801"
-        },
-        {
-            "student_id": 1,
-            "course_id": 101,
-            "timestamp": "2025-09-28T15:20:11.279498"
-        },
-        {
-            "student_id": 1,
-            "course_id": 101,
-            "timestamp": "2025-09-28T15:20:11.477961"
-        },
-        {
-            "student_id": 1,
-            "course_id": 101,
-            "timestamp": "2025-09-28T15:20:12.064729"
-        },
-        {
-            "student_id": 1,
-            "course_id": 101,
-            "timestamp": "2025-09-28T15:20:12.251533"
-        },
-        {
-            "student_id": 1,
-            "course_id": 101,
-            "timestamp": "2025-09-28T15:20:12.874939"
-        },
-        {
-            "student_id": 1,
-            "course_id": 101,
-            "timestamp": "2025-09-28T15:20:13.112313"
-        },
-        {
-            "student_id": 1,
-            "course_id": 101,
-            "timestamp": "2025-09-28T15:20:13.611932"
-        },
-        {
-            "student_id": 1,
-            "course_id": 101,
-            "timestamp": "2025-09-28T15:20:13.805772"
-        },
-        {
-            "student_id": 1,
-            "course_id": 101,
-            "timestamp": "2025-09-28T15:20:14.336449"
-        },
-        {
-            "student_id": 1,
-            "course_id": 101,
-            "timestamp": "2025-09-28T15:20:14.570682"
-        },
-        {
-            "student_id": 1,
-            "course_id": 101,
-            "timestamp": "2025-09-28T15:20:15.003427"
-        },
-        {
-            "student_id": 1,
-            "course_id": 101,
-            "timestamp": "2025-09-28T15:20:15.180850"
-        },
-        {
-            "student_id": 1,
-            "course_id": 101,
-            "timestamp": "2025-09-28T15:26:27.673662"
-        },
-        {
-            "student_id": 1,
-            "course_id": 101,
-            "timestamp": "2025-09-28T15:32:15.447156"
-        },
-        {
-            "student_id": 1,
-            "course_id": 101,
-            "timestamp": "2025-09-28T16:49:39.538271"
-        },
-        {
-            "student_id": 1,
-            "course_id": 101,
-            "timestamp": "2025-09-28T16:52:11.561577"
-        },
-        {
-            "student_id": 1,
-            "course_id": 101,
-            "timestamp": "2025-09-28T16:52:52.895036"
-        },
-        {
-            "student_id": 1,
-            "course_id": 101,
-            "timestamp": "2025-09-28T16:54:40.925758"
-        },
-        {
-            "student_id": 1,
-            "course_id": 101,
-            "timestamp": "2025-10-07T18:54:06.242659"
         }
     ]
 }
