@@ -20,11 +20,25 @@ FIT1056-Sem2-2025/
 
 │── app/
 
+│   ├── __init__.py
+
 │   └── schedule.py          # Core ScheduleManager (students, teachers, courses, attendance)
+
+│   └── admin_utils.py       # surpport for logging
+
+│   └── console_main.py      # initail frontend and provide code base UI
+
+│   └── student.py           # a student object inharist user
+
+│   └── teacher.py           # a teacher object inharist user
+
+│   └── user.py              # a abstract class for basic implemention for student and teacher
 
 │
 
 │── gui/
+
+│   ├── __init__.py
 
 │   ├── main_dashboard.py    # Streamlit navigation & layout
 
@@ -36,6 +50,8 @@ FIT1056-Sem2-2025/
 
 │   ├── course_pages.py      # Course management UI
 
+│   ├── finance_pages.py         # Finance GUI page
+
 │   └── admin_pages.py       # Admin-only features
 
 │
@@ -43,6 +59,10 @@ FIT1056-Sem2-2025/
 │── data/
 
 │   └── *.json / *.csv       # Saved student, teacher, attendance data
+
+├── tests/
+
+│   └── test_schedule_manager.py  # Pytest test suite
 
 │
 
@@ -69,9 +89,8 @@ FIT1056-Sem2-2025/
 
     python -m venv .venv
     Activate it.
-  
-    Install dependencies:
-  
+   
+4. Install Dependencies
     pip install -r requirements.txt
 
 **Usage**
@@ -107,7 +126,7 @@ This project uses pytest for unit testing.
 
 From the project root:
 
-pytest -v
+    pytest -v
 
  Tests cover:
 
@@ -148,10 +167,8 @@ Attendance Tracking：
 - Student check-in for lessons
 - View attendance logs
 
-Future (PST5):
-- Payments management
-- Enhanced reporting
-
+Finance
+Record student payments, view payment history, export finance reports to CSV
 Lookup：
 - Search for students and teachers by name or speciality
 
@@ -345,5 +362,14 @@ q. Quit
 1. Admin Authentication
    To access these functions, you must authenticate as an admin:
    Password is hardcoded for now （password: 123）
+   
+## summary for all PSTS ##
+
+In Pst 1, the basic idea of this music manege system had been formed. By using in-memory prototype some functions can be domostrated.
+With in the upgrades in Pst2 datas are nolonger temparery it been saved in a MSMS.josn provided a consistet storage for data
+For PST 3 the codes been redesigned based on Object-Oriented (OOP) design provide more felexable editing more modular coding and prevent from code leak.
+In order to make it more user friendly a GUI formed by streamlit is implemented, it sepereas the fornmt end and back end ont only better looking but also increase the system security, Scalability and maintainability.
+Current PST 5, few more function been added including the log function make the system "crash-proof" always can backtracking from the log as well as the auto tester using Pytest.
+Spam the code with edge cases and large numbers autometicly can filtter out some hiden indecents that human test can't indentified.
 
 Created by [ZouZixuan]. Thanks for veiwing!!!
