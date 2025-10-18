@@ -85,14 +85,7 @@
             "lessons": []
         }
     ],
-    "finance": [
-        {
-            "student_id": 1,
-            "amount": 111111.0,
-            "method": "",
-            "timestamp": "2025-10-18T11:49:01.336722"
-        }
-    ],
+    "finance": [],
     "next_student_id": 4,
     "next_teacher_id": 3,
     "next_course_id": 104,

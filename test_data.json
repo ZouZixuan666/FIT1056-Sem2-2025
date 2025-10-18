@@ -1,0 +1,16 @@
+{
+    "students": [
+        {
+            "id": 1,
+            "name": "Bob",
+            "enrolled_course_ids": []
+        }
+    ],
+    "teachers": [],
+    "courses": [],
+    "finance": [],
+    "next_student_id": 2,
+    "next_teacher_id": 1,
+    "next_course_id": 1,
+    "attendance": []
+}

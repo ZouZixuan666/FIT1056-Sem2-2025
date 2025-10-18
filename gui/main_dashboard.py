@@ -99,4 +99,13 @@ def launch():
         from gui.admin_pages import show_admin_tools_page
         show_admin_tools_page(st.session_state.manager)
     elif page == "Payments (stub)":
-        st.header("Payments")
+        from gui.finance_pages import show_finance_page
+        show_finance_page(st.session_state.manager)
+        
+
+# In Pst 1, the basic idea of this music manege system had been formed. By using in-memory prototype some functions can be domostrated.
+# With in the upgrades in Pst2 datas are nolonger temparery it been saved in a MSMS.josn provided a consistet storage for data
+# For PST 3 the codes been redesigned based on Object-Oriented (OOP) design provide more felexable editing more modular coding and prevent from code leak.
+# In order to make it more user friendly a GUI formed by streamlit is implemented, it sepereas the fornmt end and back end ont only better looking but also increase the system security, Scalability and maintainability.
+#current PST 5, few more function been added including the log function make the system "crash-proof" always can backtracking from the log as well as the auto tester using Pytest.
+# Spam the code with edge cases and large numbers autometicly can filtter out some hiden indecents that human test can't indentified.

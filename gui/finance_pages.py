@@ -1,7 +1,7 @@
 # gui/finance_pages.py
 import streamlit as st
 import pandas as pd
-
+import datetime
 def show_finance_page(manager):
     """Renders the UI for all financial operations."""
     st.header("Finance & Payments")
@@ -23,18 +23,33 @@ def show_finance_page(manager):
             # TODO: Call manager.record_payment() and show a success message.
             manager.record_payment(student_id, amount, method)
             st.success(f"Payment of {amount} for {selected_student_name} recorded.")
+        else:
+                st.error("Please enter a valid payment method.")
 
     # --- Section 2: View Payment History ---
     st.subheader("View Student Payment History")
     # TODO: Create a selectbox to choose a student.
-    history_student_name = st.selectbox("Select Student to View History", student_list.keys())
+    history_student_name = st.selectbox("Select Student to View History", list(student_list.keys()), key="history_select")
     if history_student_name:
-        history_student_id = student_list[history_student_name]
-        # TODO: Call manager.get_payment_history().
-        history = manager.get_payment_history(history_student_id)
+        student_id = student_list[history_student_name]
+        history = manager.get_payment_history(student_id)
+
         if history:
-            # TODO: Convert the list of dictionaries to a pandas DataFrame and display it.
+        # Convert list of dicts → DataFrame
             df = pd.DataFrame(history)
-            st.dataframe(df)
+            df["timestamp"] = pd.to_datetime(df["timestamp"])
+            df["timestamp"] = df["timestamp"].dt.strftime("%Y-%m-%d %H:%M:%S")
+
+            st.dataframe(df, use_container_width=True)
+
+            csv_data = df.to_csv(index=False).encode('utf-8')
+
+            st.download_button(
+                label="📥 Download Payment History as CSV",
+                data=csv_data,
+                file_name=f"payment_history_{history_student_name}_{datetime.datetime.now().strftime('%Y%m%d')}.csv",
+                mime="text/csv",
+                key="download_btn"
+            )
         else:
-            st.info("This student has no payment history.")
+            st.info(f"No payment history found for {history_student_name}.")
