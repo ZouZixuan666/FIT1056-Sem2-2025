@@ -99,6 +99,27 @@ FIT1056-Sem2-2025/
     
     
     This gives a text-based menu for student, teacher, and course operations.
+    
+
+## Running Tests
+
+This project uses pytest for unit testing.
+
+From the project root:
+
+pytest -v
+
+ Tests cover:
+
+    Students, teachers, and courses (CRUD)
+    
+    Attendance recording and duplicate checks
+    
+    Payment recording and finance history
+    
+    Report exporting
+    
+    File management and data persistence
 
 ## Features
 
