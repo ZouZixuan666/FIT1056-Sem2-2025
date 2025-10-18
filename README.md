@@ -329,7 +329,7 @@ Admin Functions：
 
     
 }
-Command-Line Interface:
+Command-Line Interface: (No longer updated)
 1. Register New Student
 2. Enrol Existing Student
 3. Lookup Student or Teacher
