@@ -42,6 +42,8 @@ FIT1056-Sem2-2025/
 
 │   ├── main_dashboard.py    # Streamlit navigation & layout
 
+│   ├──  dashboard_page.py   # summary for the system going
+
 │   ├── welcome_page.py      # Welcome / landing page
 
 │   ├── student_pages.py     # Student management UI
@@ -67,6 +69,8 @@ FIT1056-Sem2-2025/
 │
 
 │── cli_main.py              # CLI interface
+
+│── test_data.json           # For pytest
 
 │── main.py                  # Streamlit entry point
 
