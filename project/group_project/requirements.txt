@@ -1,0 +1,8 @@
+streamlit
+requests
+googletrans
+argostranslate
+reportlab
+pytest
+cryptography
+fernet
