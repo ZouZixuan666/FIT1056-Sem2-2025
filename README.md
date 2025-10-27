@@ -1,5 +1,7 @@
 # 🏥 Hospital Control Panel
 Zou Zixuan Workshop 02 Group 4
+
+
 A modern **Streamlit-based hospital management system** designed for clinics, teaching hospitals, or research facilities.  
 Built for administrators, staff, and patients — all roles are integrated with authentication, multilingual UI, alerts, assignments, and audit logging.
 
