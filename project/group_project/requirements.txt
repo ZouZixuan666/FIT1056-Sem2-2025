@@ -6,3 +6,4 @@ reportlab
 pytest
 cryptography
 fernet
+xx-sent-ud-sm==3.8.0
