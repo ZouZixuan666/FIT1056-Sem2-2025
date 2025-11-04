@@ -1669,3 +1669,15 @@ gAAAAABo_5RaHFNq2YilgfFQpJS7SKaGSfyNtb3zNcfWdF7TJJURdSNlCq6JfSdQfiEGKYDxc691vQCy
 gAAAAABo_5RayJOmO5bICnDo07DPSHVI7iB63a3UVn4Y9jb_rnL9fZpnxVPt9RTC_xBWCq9Lxf0OFnFQKdKnQzrM_nFTe5ApxagX_HF_qPPo1cZ9BuUooQ729BN10ZxIpqRWFAN74R1n71OhO0SdQrPwnfqXSSuZak0ajGFpnC9jgy8qTjPUbgPFQaVGKewU0uo-6eUpnzH-26bLj26inmZM6p4Y7m9kUgVIkNTJAzToXj1JX5AJKMte1YcrQb4W3owqB-fDsnp4OGM7vWEitX71ApQsRkHOrA==
 gAAAAABo_5RazUlo8cRcB6JlEbRuvHzXhEcyERRqpbN_IETBYc1dQKI-grX9S3KbHxjcxen3tB_uORzNvk6XkoOqAOWWtBeWO42yJ08tTnWwz6WPbiJ2xsHm8kZ1qJAPi-xZknxNY-3fC0-sxfMwB0RXLUBldOP6Y6VWaMSvvQVeAZQixdYd4E0muhxGvx2zvya5VHMhY046U0XBZgClxxnnUNajAMLNt734Sic9-fNnHlkOiubs3h6k_GM7Ahh52PYZL2mIm7MV_8uRP0sG4MUIl78fY76kJw==
 gAAAAABo_5RaBkKBAdE2w4oCYw2UzjtTO0qMk72aM5uYkeVlGGh8z711GPtjIzQDm3QVn8VOCDTSPZlEtY0s1AaBMe50frSgXqLbxuaFp9dOof3p5NE5JqOM_7lA8u87SM2SD8AlrTaGIXunEk0cDjiHhdc68cpTZHrw9T_33omUkp_huGh1cD7hsKqgB5ucQ2_yfALd-BCv6oqkEQCTQNSgnhWLdfQWPqI5oRJfBL3N7jtPf4mOksEgefPZC-Tuu7VXdjbsQ_BU9aMo9eiyydofNqUUwWG7GQ==
+{"ts": "2025-11-04T15:02:22.560608Z", "event": "search.index.refresh", "user": null, "role": null, "details": {"total_logs": 0}, "app_version": "1.0"}
+{"ts": "2025-11-04T15:02:22.676789Z", "event": "search.index.refresh", "user": null, "role": null, "details": {"total_logs": 0}, "app_version": "1.0"}
+{"ts": "2025-11-04T15:02:22.769549Z", "event": "search.index.refresh", "user": null, "role": null, "details": {"total_logs": 0}, "app_version": "1.0"}
+{"ts": "2025-11-04T15:11:37.092349Z", "event": "search.index.refresh", "user": null, "role": null, "details": {"total_logs": 0}, "app_version": "1.0"}
+{"ts": "2025-11-04T15:11:37.115824Z", "event": "search.index.refresh", "user": null, "role": null, "details": {"total_logs": 0}, "app_version": "1.0"}
+{"ts": "2025-11-04T15:11:37.138517Z", "event": "search.index.refresh", "user": null, "role": null, "details": {"total_logs": 0}, "app_version": "1.0"}
+{"ts": "2025-11-04T15:25:23.268518Z", "event": "search.index.refresh", "user": null, "role": null, "details": {"total_logs": 0}, "app_version": "1.0"}
+{"ts": "2025-11-04T15:25:23.289547Z", "event": "search.index.refresh", "user": null, "role": null, "details": {"total_logs": 0}, "app_version": "1.0"}
+{"ts": "2025-11-04T15:25:23.310317Z", "event": "search.index.refresh", "user": null, "role": null, "details": {"total_logs": 0}, "app_version": "1.0"}
+{"ts": "2025-11-04T15:25:25.216552Z", "event": "search.index.refresh", "user": null, "role": null, "details": {"total_logs": 0}, "app_version": "1.0"}
+{"ts": "2025-11-04T15:25:25.239494Z", "event": "search.index.refresh", "user": null, "role": null, "details": {"total_logs": 0}, "app_version": "1.0"}
+{"ts": "2025-11-04T15:25:25.262426Z", "event": "search.index.refresh", "user": null, "role": null, "details": {"total_logs": 0}, "app_version": "1.0"}
