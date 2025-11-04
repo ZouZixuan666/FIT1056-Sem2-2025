@@ -6,4 +6,4 @@ reportlab
 pytest
 cryptography
 fernet
-xx-sent-ud-sm==3.8.0
+https://github.com/explosion/spacy-models/releases/download/xx_sent_ud_sm-3.8.0/xx_sent_ud_sm-3.8.0.tar.gz
