@@ -113,21 +113,33 @@ def atomic_write_json(path: str, data, encrypt: bool = True):
     If encryption support is unavailable, transparently write plaintext.
     """
     import json, os, tempfile
-    tmp_fd, tmp_path = tempfile.mkstemp(dir=os.path.dirname(path) or ".")
+
+    dir_path = os.path.dirname(path) or "."
+    os.makedirs(dir_path, exist_ok=True)
+
+    # Create a temporary file safely in the same directory
+    tmp_fd, tmp_path = tempfile.mkstemp(dir=dir_path)
     try:
-        if encrypt and security_utils is not None:
-            try:
-                with os.fdopen(tmp_fd, "wb") as f:
+        # We'll only open the fd ONCE
+        with os.fdopen(tmp_fd, "wb") as f:
+            if encrypt and security_utils is not None:
+                try:
                     f.write(security_utils.encrypt_json(data))
-            except Exception:
-                # Fallback to plaintext on any encryption failure
-                with os.fdopen(tmp_fd, "w", encoding="utf-8") as f:
-                    json.dump(data, f, ensure_ascii=False, indent=2)
-        else:
-            with os.fdopen(tmp_fd, "w", encoding="utf-8") as f:
-                json.dump(data, f, ensure_ascii=False, indent=2)
+                except Exception:
+                    # If encryption fails, reopen in text mode
+                    f.close()  # ensure closure before text reopen
+                    with open(tmp_path, "w", encoding="utf-8") as fw:
+                        json.dump(data, fw, ensure_ascii=False, indent=2)
+            else:
+                f.close()
+                with open(tmp_path, "w", encoding="utf-8") as fw:
+                    json.dump(data, fw, ensure_ascii=False, indent=2)
+
+        # Atomically replace
         os.replace(tmp_path, path)
+
     except Exception:
+        # Clean up any leftover temporary file
         try:
             os.remove(tmp_path)
         except Exception:
