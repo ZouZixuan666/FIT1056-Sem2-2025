@@ -1,0 +1,7774 @@
+[
+  {
+    "ts": "2025-10-12T06:58:20.352487Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "0.1.0"
+  },
+  {
+    "ts": "2025-10-12T06:58:58.662314Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "0.1.0"
+  },
+  {
+    "ts": "2025-10-12T06:59:37.337182Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "0.1.0"
+  },
+  {
+    "ts": "2025-10-12T06:59:47.101498Z",
+    "event": "auth.logout",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "0.1.0"
+  },
+  {
+    "ts": "2025-10-12T08:54:48.257572Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "0.1.0"
+  },
+  {
+    "ts": "2025-10-12T09:05:45.772933Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "0.1.0"
+  },
+  {
+    "ts": "2025-10-12T09:22:26.714338Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "0.1.0"
+  },
+  {
+    "ts": "2025-10-12T09:49:47.801963Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "0.1.0"
+  },
+  {
+    "ts": "2025-10-12T09:50:14.339251Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "0.1.0"
+  },
+  {
+    "ts": "2025-10-12T09:51:46.525600Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "0.1.0"
+  },
+  {
+    "ts": "2025-10-12T09:58:18.195260Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "0.1.0"
+  },
+  {
+    "ts": "2025-10-13T07:40:52.338188Z",
+    "event": "auth.lockout",
+    "user": "admin",
+    "role": null,
+    "details": {
+      "fails": 5
+    },
+    "app_version": "0.1.0"
+  },
+  {
+    "ts": "2025-10-13T07:41:16.078779Z",
+    "event": "auth.lockout",
+    "user": "admin",
+    "role": null,
+    "details": {
+      "fails": 5
+    },
+    "app_version": "0.1.0"
+  },
+  {
+    "ts": "2025-10-13T07:44:10.404372Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "0.1.0"
+  },
+  {
+    "ts": "2025-10-13T07:44:11.870808Z",
+    "event": "auth.logout",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "0.1.0"
+  },
+  {
+    "ts": "2025-10-13T07:44:20.333131Z",
+    "event": "auth.lockout",
+    "user": "admin",
+    "role": null,
+    "details": {
+      "fails": 5
+    },
+    "app_version": "0.1.0"
+  },
+  {
+    "ts": "2025-10-13T07:47:48.925846Z",
+    "event": "auth.lockout",
+    "user": "admin",
+    "role": null,
+    "details": {
+      "fails": 5
+    },
+    "app_version": "0.1.0"
+  },
+  {
+    "ts": "2025-10-13T07:49:30.094871Z",
+    "event": "auth.lockout",
+    "user": "admin",
+    "role": null,
+    "details": {
+      "fails": 5
+    },
+    "app_version": "0.1.0"
+  },
+  {
+    "ts": "2025-10-13T07:50:39.766875Z",
+    "event": "auth.lockout",
+    "user": "admin",
+    "role": null,
+    "details": {
+      "fails": 5
+    },
+    "app_version": "0.1.0"
+  },
+  {
+    "ts": "2025-10-13T07:50:59.509741Z",
+    "event": "auth.lockout",
+    "user": "admin",
+    "role": null,
+    "details": {
+      "fails": 5
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-13T07:53:54.744718Z",
+    "event": "auth.lockout",
+    "user": "admin",
+    "role": null,
+    "details": {
+      "fails": 6
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-13T07:54:10.415589Z",
+    "event": "auth.lockout",
+    "user": "admin",
+    "role": null,
+    "details": {
+      "fails": 5
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-13T07:55:56.791816Z",
+    "event": "auth.lockout",
+    "user": "admin",
+    "role": null,
+    "details": {
+      "fails": 5
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-13T07:56:04.957182Z",
+    "event": "auth.lockout",
+    "user": "admin",
+    "role": null,
+    "details": {
+      "fails": 5
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-13T07:56:31.593287Z",
+    "event": "auth.lockout",
+    "user": "admin",
+    "role": null,
+    "details": {
+      "fails": 5
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-13T07:58:44.833314Z",
+    "event": "auth.lockout",
+    "user": "admin",
+    "role": null,
+    "details": {
+      "fails": 5
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-13T07:59:01.080865Z",
+    "event": "auth.lockout",
+    "user": "admin",
+    "role": null,
+    "details": {
+      "fails": 5
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-13T08:00:12.964530Z",
+    "event": "auth.lockout",
+    "user": "admin",
+    "role": null,
+    "details": {
+      "fails": 5
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-13T08:00:40.829628Z",
+    "event": "auth.lockout",
+    "user": "admin",
+    "role": null,
+    "details": {
+      "fails": 5
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-13T08:01:12.694684Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-13T08:01:15.278090Z",
+    "event": "auth.logout",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-13T11:32:34.635271Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-16T06:05:06.388410Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-18T07:23:07.987036Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-18T08:09:27.481432Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-18T08:10:42.252117Z",
+    "event": "patient.create",
+    "user": "admin",
+    "role": "admin",
+    "details": {
+      "patientID": "P001",
+      "name": "Ishan Chander Bhanot"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-18T08:15:31.575673Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-18T08:17:25.931844Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-18T08:21:31.910072Z",
+    "event": "assign.create",
+    "user": "admin",
+    "role": "admin",
+    "details": {
+      "patientID": "P001",
+      "staffID": "S002"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-18T08:21:40.876348Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-18T08:25:23.582127Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-18T12:44:14.100960Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-18T12:44:26.706488Z",
+    "event": "assign.create",
+    "user": "admin",
+    "role": "admin",
+    "details": {
+      "patientID": "P001",
+      "staffID": "S001"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-18T12:44:37.068983Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-18T16:29:02.533136Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-18T16:29:50.380186Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-18T16:31:32.843087Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-18T16:33:03.995083Z",
+    "event": "assign.replace",
+    "user": "admin",
+    "role": "admin",
+    "details": {
+      "patientID": "P001",
+      "new_staffID": "S003"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-19T04:08:07.988611Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-19T04:11:00.006059Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-19T04:11:17.320209Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-19T04:11:32.132274Z",
+    "event": "auth.logout",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-19T04:11:41.208426Z",
+    "event": "auth.lockout",
+    "user": "admin",
+    "role": null,
+    "details": {
+      "fails": 5
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-19T04:12:19.101716Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-19T04:26:47.411596Z",
+    "event": "assign.create",
+    "user": "admin",
+    "role": "admin",
+    "details": {
+      "patientID": "P001",
+      "staffID": "S001"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-19T04:26:52.471517Z",
+    "event": "assign.delete",
+    "user": "admin",
+    "role": "admin",
+    "details": {
+      "patientID": "P001",
+      "staffID": "S001"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-19T04:26:57.060568Z",
+    "event": "assign.replace",
+    "user": "admin",
+    "role": "admin",
+    "details": {
+      "patientID": "P001",
+      "new_staffID": "S001"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T07:26:53.610539Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T07:30:39.876330Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T07:44:20.705062Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T07:44:31.820886Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T07:50:13.872670Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T10:06:01.641171Z",
+    "event": "auth.login",
+    "user": "nurse1",
+    "role": "staff",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T10:06:01.680921Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T10:26:07.907622Z",
+    "event": "auth.logout",
+    "user": "nurse1",
+    "role": "staff",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T10:26:10.682649Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T10:26:16.492994Z",
+    "event": "auth.logout",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T10:26:23.058811Z",
+    "event": "auth.login",
+    "user": "nurse1",
+    "role": "staff",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T10:26:29.081076Z",
+    "event": "auth.logout",
+    "user": "nurse1",
+    "role": "staff",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T10:26:33.059011Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T10:26:43.487541Z",
+    "event": "auth.logout",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T10:26:49.603995Z",
+    "event": "auth.login",
+    "user": "nurse1",
+    "role": "staff",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T10:27:00.387521Z",
+    "event": "auth.logout",
+    "user": "nurse1",
+    "role": "staff",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T10:27:03.888669Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T10:27:24.005906Z",
+    "event": "auth.logout",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T10:27:29.126066Z",
+    "event": "auth.login",
+    "user": "nurse1",
+    "role": "staff",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T11:29:12.583167Z",
+    "event": "auth.login",
+    "user": "nurse1",
+    "role": "staff",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T11:29:12.618026Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T11:29:27.319305Z",
+    "event": "log.create",
+    "user": "S001",
+    "role": "staff",
+    "details": {
+      "patientID": "P001",
+      "logID": "L49569C093841"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T13:16:33.337509Z",
+    "event": "auth.login",
+    "user": "nurse1",
+    "role": "staff",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T13:16:33.416853Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 1
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T13:17:50.970750Z",
+    "event": "auth.login",
+    "user": "nurse1",
+    "role": "staff",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T13:17:51.052384Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 1
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T13:17:56.120489Z",
+    "event": "log.delete",
+    "user": "S001",
+    "role": "staff",
+    "details": {
+      "logID": "L49569C093841",
+      "patientID": "P001",
+      "staffID": "S001"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T13:29:02.444838Z",
+    "event": "auth.login",
+    "user": "nurse1",
+    "role": "staff",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T13:29:02.479118Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T13:29:29.738219Z",
+    "event": "log.create",
+    "user": "S001",
+    "role": "staff",
+    "details": {
+      "patientID": "P001",
+      "logID": "L946ED29E85BA"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T13:37:53.815067Z",
+    "event": "auth.login",
+    "user": "nurse1",
+    "role": "staff",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T13:37:53.902843Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 1
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T13:42:32.568553Z",
+    "event": "auth.login",
+    "user": "nurse1",
+    "role": "staff",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T13:42:32.614962Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 1
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T13:47:58.833002Z",
+    "event": "auth.login",
+    "user": "nurse1",
+    "role": "staff",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T13:47:58.876211Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 1
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T13:53:46.910193Z",
+    "event": "auth.login",
+    "user": "nurse1",
+    "role": "staff",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T13:53:46.980068Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 1
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T14:03:23.224923Z",
+    "event": "auth.login",
+    "user": "nurse1",
+    "role": "staff",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T14:03:23.276249Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 1
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T14:03:58.850602Z",
+    "event": "log.create",
+    "user": "S001",
+    "role": "staff",
+    "details": {
+      "patientID": "P001",
+      "logID": "LFFAA12E57FEE"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T14:04:09.590089Z",
+    "event": "log.create",
+    "user": "S001",
+    "role": "staff",
+    "details": {
+      "patientID": "P001",
+      "logID": "L5A634065BB66"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T14:04:32.333564Z",
+    "event": "log.delete",
+    "user": "S001",
+    "role": "staff",
+    "details": {
+      "logID": "L946ED29E85BA",
+      "patientID": "P001",
+      "staffID": "S001"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T14:04:34.790443Z",
+    "event": "log.delete",
+    "user": "S001",
+    "role": "staff",
+    "details": {
+      "logID": "L5A634065BB66",
+      "patientID": "P001",
+      "staffID": "S001"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T14:04:36.893206Z",
+    "event": "log.delete",
+    "user": "S001",
+    "role": "staff",
+    "details": {
+      "logID": "LFFAA12E57FEE",
+      "patientID": "P001",
+      "staffID": "S001"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T14:04:43.817283Z",
+    "event": "log.create",
+    "user": "S001",
+    "role": "staff",
+    "details": {
+      "patientID": "P001",
+      "logID": "L51766FF94568"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T14:04:50.821496Z",
+    "event": "log.create",
+    "user": "S001",
+    "role": "staff",
+    "details": {
+      "patientID": "P001",
+      "logID": "L7386760F4EBD"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T14:11:03.597327Z",
+    "event": "auth.login",
+    "user": "nurse1",
+    "role": "staff",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T14:11:03.641200Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 2
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T14:11:48.393041Z",
+    "event": "log.delete",
+    "user": "S001",
+    "role": "staff",
+    "details": {
+      "logID": "L7386760F4EBD",
+      "patientID": "P001",
+      "staffID": "S001"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-23T14:11:49.229870Z",
+    "event": "log.delete",
+    "user": "S001",
+    "role": "staff",
+    "details": {
+      "logID": "L51766FF94568",
+      "patientID": "P001",
+      "staffID": "S001"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-24T07:25:50.448249Z",
+    "event": "auth.login",
+    "user": "nurse1",
+    "role": "staff",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-24T07:25:50.492951Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-24T09:57:35.483354Z",
+    "event": "auth.logout",
+    "user": "nurse1",
+    "role": "staff",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-24T09:57:52.320258Z",
+    "event": "auth.login",
+    "user": "patient1",
+    "role": "patient",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-24T09:59:22.812819Z",
+    "event": "auth.logout",
+    "user": "patient1",
+    "role": "patient",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-24T09:59:26.183078Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-24T11:03:35.379875Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-24T17:23:20.801677Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-24T17:24:46.116089Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-24T17:29:15.280822Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-24T17:32:18.034059Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-24T17:36:01.938526Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-24T17:38:22.912567Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-24T17:41:54.920365Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-24T17:42:22.984022Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-24T17:42:59.666346Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-24T19:32:52.395317Z",
+    "event": "staff.create",
+    "user": "admin",
+    "role": "admin",
+    "details": {
+      "staffID": "S001",
+      "name": "Ishan Bhanot",
+      "role": "care"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-24T19:32:56.492528Z",
+    "event": "auth.logout",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-24T19:33:10.427376Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-24T19:48:17.793723Z",
+    "event": "auth.login",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-24T19:48:21.381441Z",
+    "event": "auth.logout",
+    "user": "admin",
+    "role": "admin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-24T19:59:58.069569Z",
+    "event": "auth.login",
+    "user": "SiteAdmin",
+    "role": "siteadmin",
+    "details": {},
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-24T20:08:09.595387Z",
+    "event": "auth.lockout",
+    "user": "siteadmin",
+    "role": null,
+    "details": {
+      "fails": 5
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-24T20:17:51.961185Z",
+    "event": "auth.lockout",
+    "user": "SiteAdmin",
+    "role": null,
+    "details": {
+      "fails": 5
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-25T08:37:11.124639Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-25T08:59:51.887070Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-25T10:03:00.372749Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-25T10:05:44.550110Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-25T10:22:23.282011Z",
+    "event": "staff.create",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "username": "S001",
+      "staffID": "S001"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-25T10:23:30.183011Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-25T10:40:15.646690Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-25T11:30:48.887088Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-25T18:09:22.390180Z",
+    "event": "auth.login.failed",
+    "user": "xIshqn",
+    "role": null,
+    "details": {
+      "error": "user_not_found"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-25T18:09:33.806215Z",
+    "event": "auth.login.failed",
+    "user": "d",
+    "role": null,
+    "details": {
+      "error": "user_not_found"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-25T18:09:34.364909Z",
+    "event": "auth.login.failed",
+    "user": "d",
+    "role": null,
+    "details": {
+      "error": "user_not_found"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-25T18:09:34.920590Z",
+    "event": "auth.login.failed",
+    "user": "d",
+    "role": null,
+    "details": {
+      "error": "user_not_found"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-25T18:09:35.204878Z",
+    "event": "auth.login.failed",
+    "user": "d",
+    "role": null,
+    "details": {
+      "error": "user_not_found"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-25T18:09:35.514496Z",
+    "event": "auth.login.failed",
+    "user": "d",
+    "role": null,
+    "details": {
+      "error": "user_not_found"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-25T18:09:35.514496Z",
+    "event": "auth.locked",
+    "user": "d",
+    "role": null,
+    "details": {
+      "until": 1761416075.514496
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-25T18:09:35.969572Z",
+    "event": "auth.login.blocked",
+    "user": "d",
+    "role": null,
+    "details": {
+      "reason": "locked"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-25T18:09:36.979350Z",
+    "event": "auth.login.blocked",
+    "user": "d",
+    "role": null,
+    "details": {
+      "reason": "locked"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-25T19:03:21.703068Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T10:43:49.506063Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T10:55:57.206414Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T10:55:58.481983Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T10:59:10.265541Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T10:59:13.444301Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T10:59:15.962676Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T10:59:16.392578Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T10:59:32.446669Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T10:59:41.150036Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T10:59:42.083089Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T10:59:57.191359Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T10:59:58.721618Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T10:59:59.731473Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T11:00:00.306349Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T11:00:00.682801Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T11:00:13.099702Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T11:00:18.643582Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T11:02:05.166229Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T11:02:18.506446Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T11:02:23.882183Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T11:02:28.366709Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T11:03:24.183461Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T11:07:24.495355Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T11:23:58.867375Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T12:06:23.908068Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T12:37:15.616104Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T12:44:59.517014Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T14:02:40.134706Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T14:03:57.484176Z",
+    "event": "staff.create",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "username": "S001",
+      "staffID": "S001"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T14:04:10.893920Z",
+    "event": "staff.create",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "username": "S002",
+      "staffID": "S002"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T14:04:15.679711Z",
+    "event": "staff.create",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "username": "S003",
+      "staffID": "S003"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T14:26:27.649360Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T14:52:33.052390Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T15:01:29.770124Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T15:06:49.585726Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T15:07:59.190736Z",
+    "event": "access.manage.delete_user",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "target": "P002",
+      "target_role": "patient"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T15:08:43.431559Z",
+    "event": "patient.create",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "patientID": "P001"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T15:09:33.840346Z",
+    "event": "patient.create",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "patientID": "P001"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T15:17:43.647625Z",
+    "event": "patient.create",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "patientID": "P001"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T15:59:29.138060Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T16:13:19.548023Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T16:17:25.137060Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T16:21:10.086171Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T16:21:58.719305Z",
+    "event": "patient.create",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "patientID": "P001"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T16:22:21.278165Z",
+    "event": "patient.create",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "patientID": "P001"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T16:28:51.297875Z",
+    "event": "patient.create",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "patientID": "P001"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T16:33:29.081282Z",
+    "event": "access.manage.delete_user",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "target": "P001",
+      "target_role": "patient"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T16:33:36.225018Z",
+    "event": "access.manage.delete_user",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "target": "P001",
+      "target_role": "patient"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T16:33:43.494006Z",
+    "event": "patient.create",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "patientID": "P001"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T16:33:45.103960Z",
+    "event": "access.manage.delete_user",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "target": "P001",
+      "target_role": "patient"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T16:33:55.959649Z",
+    "event": "access.manage.delete_user",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "target": "P001",
+      "target_role": "patient"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T16:39:55.300492Z",
+    "event": "access.manage.delete_user",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "target": "P001",
+      "target_role": "patient",
+      "login_deleted": true,
+      "profile_deleted": true
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T17:24:44.883299Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T17:28:43.004193Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T17:28:57.500530Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T17:31:26.886397Z",
+    "event": "patient.create",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "patientID": "P001"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T18:32:18.054743Z",
+    "event": "patient.create",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "patientID": "P001"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T18:32:57.960223Z",
+    "event": "staff.delete",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "username": "S001",
+      "profile_deleted": true
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T18:42:01.700089Z",
+    "event": "patient.create",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "patientID": "P001"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T18:48:47.304466Z",
+    "event": "access.manage.delete_user",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "target": "P001",
+      "target_role": "patient",
+      "login_deleted": true,
+      "profile_deleted": true
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T18:49:37.351223Z",
+    "event": "patient.create",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "patientID": "P001"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T18:54:03.241258Z",
+    "event": "patient.bulk_create",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "created": 1,
+      "skipped": 0,
+      "invalid": []
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T18:54:05.151983Z",
+    "event": "patient.delete",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "username": "P001",
+      "profile_deleted": true
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T18:56:52.005009Z",
+    "event": "patient.delete",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "username": "P001",
+      "profile_deleted": true
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T18:57:04.654968Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T19:05:40.272476Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T19:27:02.514075Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T19:28:30.003889Z",
+    "event": "search.logs",
+    "user": null,
+    "role": null,
+    "details": {
+      "keyword": "ishan",
+      "patient_filter": null,
+      "date_range_applied": false,
+      "matches": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T19:28:30.004892Z",
+    "event": "search.executed",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "keyword": "Ishan",
+      "patient_filter": null,
+      "date_range": null,
+      "results_count": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T19:28:38.139071Z",
+    "event": "search.logs",
+    "user": null,
+    "role": null,
+    "details": {
+      "keyword": "ishan",
+      "patient_filter": "P001",
+      "date_range_applied": false,
+      "matches": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T19:28:38.140575Z",
+    "event": "search.executed",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "keyword": "Ishan",
+      "patient_filter": "P001",
+      "date_range": null,
+      "results_count": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T19:28:42.344056Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T19:28:46.089204Z",
+    "event": "search.logs",
+    "user": null,
+    "role": null,
+    "details": {
+      "keyword": "p001",
+      "patient_filter": "P001",
+      "date_range_applied": false,
+      "matches": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T19:28:46.090710Z",
+    "event": "search.executed",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "keyword": "P001",
+      "patient_filter": "P001",
+      "date_range": null,
+      "results_count": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T19:28:47.781177Z",
+    "event": "search.logs",
+    "user": null,
+    "role": null,
+    "details": {
+      "keyword": "p001",
+      "patient_filter": null,
+      "date_range_applied": false,
+      "matches": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T19:28:47.781177Z",
+    "event": "search.executed",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "keyword": "P001",
+      "patient_filter": null,
+      "date_range": null,
+      "results_count": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T19:30:05.564823Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T19:30:11.389818Z",
+    "event": "search.logs",
+    "user": null,
+    "role": null,
+    "details": {
+      "keyword": "nikhel",
+      "patient_filter": null,
+      "date_range_applied": false,
+      "matches": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T19:30:11.390819Z",
+    "event": "search.executed",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "keyword": "Nikhel",
+      "patient_filter": null,
+      "date_range": null,
+      "results_count": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T19:30:57.211954Z",
+    "event": "report.generate_failed",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "patientID": "P001",
+      "error": "ReportGenerator.export_patient_report_to_pdf() got an unexpected keyword argument 'period'"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T19:37:15.929050Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T19:37:25.210338Z",
+    "event": "report.generate_failed",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "patientID": "P001",
+      "error": "ReportGenerator.export_patient_report_to_pdf() missing 1 required positional argument: 'out_path'"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T19:47:34.437460Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T19:55:25.253205Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:02:25.039002Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:02:27.780190Z",
+    "event": "report.generate_failed",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "patientID": "P001",
+      "error": "cannot access local variable 'Paragraph' where it is not associated with a value"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:05:01.025035Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:05:04.600731Z",
+    "event": "ui.report.generated",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "patientID": "P001",
+      "period": "weekly"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:05:05.770265Z",
+    "event": "ui.report.generated",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "patientID": "P001",
+      "period": "weekly"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.122849Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.130802Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.138352Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.147382Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.156803Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.165240Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.173042Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.181705Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.312916Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.320818Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.360465Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.369855Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.377976Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.385805Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.393364Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.400637Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.409686Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.417738Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.426000Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.434876Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.443162Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.451616Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.493110Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.501800Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.509558Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.518281Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.525828Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.534618Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.575988Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.584583Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.592728Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.600442Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.607164Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.616634Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.624309Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.633072Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.639577Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.647516Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.655606Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.663216Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.672274Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.681075Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.688178Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.696628Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.706111Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.755465Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.771819Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.788958Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:41:47.829961Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.425263Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.433365Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.441892Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.451251Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.459792Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.468436Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.476497Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.485568Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.495498Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.503042Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.632524Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.642092Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.650293Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.658351Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.666988Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.675559Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.682690Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.691753Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.699929Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.708492Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.717304Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.725354Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.759897Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.767456Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.775649Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.784225Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.791863Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.799416Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.849418Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.859456Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.867616Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.875678Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.882837Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.890885Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.900080Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.907630Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.915324Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.922874Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.931499Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.940051Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.948526Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.956577Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.965453Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.972999Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:11.981647Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:12.025319Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:12.041039Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:12.056212Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:47:12.107329Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.627232Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.635265Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.644212Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.652790Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.662477Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.670034Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.680924Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.690153Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.698219Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.707403Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.715462Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.724117Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.731667Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.740534Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.749579Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.758184Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.766312Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.772852Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.781884Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.789933Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.798607Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.807158Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.815335Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.824381Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.832025Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.840069Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.848517Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.857581Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.867130Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.875268Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.882800Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.892801Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.900837Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.908528Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.917569Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.929822Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.938579Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.947137Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.956844Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.965437Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.974564Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.983130Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.992089Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:36.999126Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:37.007490Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:37.137478Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:37.154118Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:37.170775Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:48:37.221129Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:49:42.744363Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:49:42.753039Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:49:42.762886Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:49:42.772033Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:49:42.895194Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:49:42.906271Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:49:42.915426Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:49:42.923600Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:49:42.931150Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:49:42.940365Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:49:42.949938Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:49:42.959189Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:49:42.967968Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:49:42.976098Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:49:42.985168Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:49:42.994357Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:49:43.001896Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:49:43.010940Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:49:43.019097Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:49:43.027149Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:49:43.035959Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:49:43.044536Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:49:43.054251Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:49:43.062818Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T20:49:43.071025Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:05:29.985746Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:05:54.266967Z",
+    "event": "staff.delete",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "username": "S002",
+      "profile_deleted": true
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:06:43.222676Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:07:10.959889Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:19:36.379062Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:19:36.395096Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:19:36.422272Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:21:19.886667Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:22:50.662100Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:22:50.674668Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:22:50.694327Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:23:02.877013Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:23:26.686623Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:23:29.256993Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:28:51.227844Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:28:51.239379Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:28:51.259509Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:29:02.684955Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:29:04.001784Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:31:10.735291Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:31:10.751623Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:31:10.776736Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:31:19.793962Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:31:21.083002Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:31:39.129126Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:31:39.142146Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:31:39.157276Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:31:39.179671Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:31:41.553630Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:31:43.223880Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:32:14.683108Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:33:04.804082Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:33:04.820618Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:33:04.844231Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:33:23.940914Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:33:23.981495Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:33:25.495351Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:33:46.809499Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:33:46.822521Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:33:46.842552Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:33:55.735372Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:34:04.929921Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:34:17.785525Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:34:17.798543Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:34:17.818373Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:34:27.998910Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:34:28.078916Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:34:29.227021Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:42:05.154339Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:42:05.167363Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:42:05.188518Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:42:16.156858Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:42:16.201110Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:42:18.394140Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:44:51.841193Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:44:51.853710Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:44:51.877787Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:45:03.521244Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:45:03.567818Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:45:04.866716Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:47:22.317870Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:47:22.331891Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:47:22.352285Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:47:32.007355Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:47:32.048442Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:47:33.543974Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:48:19.261486Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:48:19.275019Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:48:19.294165Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:48:30.485210Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:48:30.526781Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:54:33.836482Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:54:33.849498Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:54:33.870116Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:54:42.855987Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:58:31.177517Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:58:31.191551Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:58:31.204786Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-26T21:58:38.043880Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T03:48:23.090894Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T03:48:23.101935Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T03:48:23.112520Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T03:48:23.123073Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T03:48:23.248653Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T03:48:23.258716Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T03:48:23.270483Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T03:48:23.282229Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T03:48:23.295197Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T03:48:23.306989Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T03:48:23.318434Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T03:48:23.328739Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T03:48:23.339013Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T03:48:23.348699Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T03:48:23.359877Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T03:48:23.369876Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T03:48:23.380590Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T03:48:23.391008Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T03:48:23.401558Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T03:48:23.411992Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T03:48:23.422560Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T03:48:23.432647Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T03:48:23.443485Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T03:48:23.453449Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T03:48:23.463600Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:07.729084Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:07.740912Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:07.753797Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:07.763797Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:07.885578Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:07.897741Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:07.910221Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:07.920472Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:07.930422Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:07.941427Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:07.951905Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:07.963089Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:07.974942Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:07.987034Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:07.997126Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:08.008576Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:08.019459Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:08.030051Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:08.040767Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:08.051790Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:08.062717Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:08.073422Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:08.084861Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:08.095184Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:08.105480Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:14.858073Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:14.869766Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:14.881179Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:14.891872Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:14.903545Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:14.914721Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:14.926199Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:14.937503Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:14.948504Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:14.959315Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:14.970571Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:14.981371Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:14.991884Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.002563Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.014292Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.025816Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.035816Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.046982Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.058298Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.069481Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.079728Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.091608Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.103785Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.114292Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.125197Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.135985Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.146140Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.157670Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.169766Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.180278Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.190674Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.202920Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.213672Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.224207Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.235789Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.246615Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.257946Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.268290Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.278126Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.290215Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.300734Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.311351Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.322200Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.332393Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.344075Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.488494Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.510973Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.530422Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T04:28:15.574909Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T05:17:58.954038Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T05:17:58.993485Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T05:17:59.060923Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T05:18:12.117518Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T05:18:16.792243Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T05:18:34.093491Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T05:18:34.174191Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T05:18:52.921246Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T05:19:41.371640Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T05:19:41.385655Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T05:19:41.415799Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T05:19:54.925911Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T05:19:54.965067Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T05:20:21.521465Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T05:20:21.535485Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T05:20:21.566151Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T05:20:32.393888Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T05:20:32.437455Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T05:20:57.358789Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T05:20:57.440795Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:13:57.737251Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:13:57.772555Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:13:57.805337Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:14:07.290776Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:14:07.336441Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:14:27.976750Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:14:43.658405Z",
+    "event": "staff.delete",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "username": "S001",
+      "profile_deleted": true
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:23:25.112055Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:23:25.127727Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:23:25.148770Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:23:44.021968Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:23:44.104665Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:25:37.390520Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:25:37.406309Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:25:37.419958Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:30:12.115414Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:30:12.131443Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:30:12.144463Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:30:46.172093Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:30:46.186122Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:30:46.202190Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:30:51.427883Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:30:51.560367Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:31:05.300781Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:31:26.752249Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:31:26.889274Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:32:36.096394Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:32:44.469228Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:48:11.891691Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:48:11.905245Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:48:11.927820Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:48:26.294331Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:48:39.362043Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:48:39.523586Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:49:06.273433Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:49:10.295244Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:49:10.459844Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:49:17.334697Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:49:23.740861Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:49:33.073209Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:59:45.408594Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T07:59:55.081501Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:10:09.573644Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:10:09.590457Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:10:27.227733Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:10:27.243295Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:10:30.730292Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:10:30.744893Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:10:32.614233Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:10:32.628780Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:10:34.188700Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:10:47.585392Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:10:53.805742Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:10:53.975305Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:11:20.087174Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:11:20.251941Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:11:22.123094Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:11:37.963713Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:11:38.132407Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:11:40.419908Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:11:47.057738Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:11:49.912948Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:11:50.000369Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:11:51.002553Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:17:21.916345Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:17:27.981267Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:17:34.283164Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:17:34.291228Z",
+    "event": "patient.delete",
+    "user": "siteadmin",
+    "role": "siteadmin",
+    "details": {
+      "username": "P001",
+      "profile_deleted": true
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:17:34.385300Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:17:37.922516Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:17:39.702998Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:17:43.712697Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:17:45.968789Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:17:46.602804Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:17:51.536681Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:17:53.395657Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:17:53.496409Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:18:49.334903Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:18:51.343073Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:18:59.646567Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:19:08.905378Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:19:08.921434Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:19:08.959399Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:19:21.467197Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:19:21.630989Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:20:10.134533Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:20:10.150087Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:20:10.169997Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:20:10.272545Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:20:11.051620Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:20:12.717877Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:20:17.432026Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:20:20.642072Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:20:24.111080Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:20:27.577452Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:20:28.844239Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:20:30.746220Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:20:31.118442Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:20:32.969791Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:20:33.060367Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:22:30.228182Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:22:30.244478Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:22:30.261646Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:22:30.294648Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:22:31.579212Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:22:32.817630Z",
+    "event": "patient.create",
+    "user": "A001",
+    "role": "admin",
+    "details": {
+      "username": "P001"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:22:32.902821Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:22:57.288845Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:23:12.301519Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:24:54.085059Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:24:54.331334Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:24:54.338348Z",
+    "event": "patient.delete",
+    "user": "A001",
+    "role": "admin",
+    "details": {
+      "username": "P001",
+      "profile_deleted": true
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:24:54.436248Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:24:56.760648Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:24:59.280496Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:25:00.584006Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:25:01.535038Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:25:05.719947Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:25:07.163719Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:25:09.716110Z",
+    "event": "patient.create",
+    "user": "A001",
+    "role": "admin",
+    "details": {
+      "username": "P001"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:25:09.802077Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:31:12.339499Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:31:47.271099Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:31:57.491240Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:31:57.655830Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:31:58.912079Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:32:02.329603Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:32:02.669603Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:32:02.676109Z",
+    "event": "patient.delete",
+    "user": "A001",
+    "role": "admin",
+    "details": {
+      "username": "P001",
+      "profile_deleted": true
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:32:02.759784Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:32:06.043332Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:32:09.364403Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:32:09.459755Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:32:09.528845Z",
+    "event": "patient.bulk_create",
+    "user": "A001",
+    "role": "admin",
+    "details": {
+      "created": 1,
+      "skipped": 0,
+      "invalid": []
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:32:09.616246Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:32:10.706126Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:32:11.246289Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:32:11.254305Z",
+    "event": "patient.delete",
+    "user": "A001",
+    "role": "admin",
+    "details": {
+      "username": "P001",
+      "profile_deleted": true
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:32:11.338730Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:40:28.541481Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:40:28.561527Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:40:28.604724Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:50:10.188739Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:50:10.205261Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:50:10.250844Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:50:20.561118Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:50:20.732830Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:50:22.337869Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:50:25.737963Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:50:25.831853Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:50:25.900762Z",
+    "event": "patient.bulk_create",
+    "user": "A001",
+    "role": "admin",
+    "details": {
+      "created": 1,
+      "skipped": 0,
+      "invalid": []
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:50:25.986408Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:50:28.237802Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:50:28.676287Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:50:28.682799Z",
+    "event": "patient.delete",
+    "user": "A001",
+    "role": "admin",
+    "details": {
+      "username": "P001",
+      "profile_deleted": true
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:50:28.771776Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:50:59.942658Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:50:59.959690Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:50:59.998768Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:51:12.017547Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:51:12.183485Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:51:13.664408Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:51:16.804116Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:51:20.879198Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:51:22.487639Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:51:28.008545Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:51:29.158287Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:51:31.723410Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:51:31.930718Z",
+    "event": "patient.create",
+    "user": "A001",
+    "role": "admin",
+    "details": {
+      "username": "P001"
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:51:31.989466Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:51:37.699823Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:51:38.162433Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:51:38.169467Z",
+    "event": "patient.delete",
+    "user": "A001",
+    "role": "admin",
+    "details": {
+      "username": "P001",
+      "profile_deleted": true
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:51:38.224606Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  },
+  {
+    "ts": "2025-10-27T08:57:09.586381Z",
+    "event": "search.index.refresh",
+    "user": null,
+    "role": null,
+    "details": {
+      "total_logs": 0
+    },
+    "app_version": "1.0"
+  }
+]

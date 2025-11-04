@@ -1,0 +1,38 @@
+{
+  "siteadmin": {
+    "hash": "65fb97cb97da5bf485f7ee6df848e6392e445475554e71c7a8093f5a2e98fc07",
+    "role": "siteadmin",
+    "name": "Site Administrator",
+    "lock_fails": 0,
+    "lock_until_ts": null,
+    "default_ui_lang": "en",
+    "userID": "siteadmin"
+  },
+  "A001": {
+    "userID": "A001",
+    "hash": "434f019df00aac15fa154f99574947a8b13462f3fae2e1ce96d3f33b2cc217be",
+    "role": "admin",
+    "name": "Admin",
+    "default_ui_lang": "en",
+    "lock_fails": 0,
+    "lock_until_ts": null
+  },
+  "S001": {
+    "userID": "S001",
+    "hash": "4c859b3beb60694d003eba77738d017809b40f1e9bcf3d14c31d21678502f4e4",
+    "role": "staff",
+    "name": "Staff",
+    "default_ui_lang": "en",
+    "lock_fails": 0,
+    "lock_until_ts": null
+  },
+  "P001": {
+    "userID": "P001",
+    "hash": "986e87c730ea9ea4cd5d80966d82103fa72b514e667d586c460ea07f5e856832",
+    "role": "patient",
+    "name": "Patient",
+    "default_ui_lang": "en",
+    "lock_fails": 0,
+    "lock_until_ts": null
+  }
+}

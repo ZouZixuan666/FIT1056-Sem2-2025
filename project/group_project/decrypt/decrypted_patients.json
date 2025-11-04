@@ -1,0 +1,11 @@
+[
+  {
+    "userID": "P001",
+    "name": "Patient",
+    "patientID": "P001",
+    "age": 20,
+    "condition": "Broken Foot",
+    "assignedStaffID": "S001",
+    "preferences": null
+  }
+]

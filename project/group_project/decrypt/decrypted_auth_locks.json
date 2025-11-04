@@ -1,0 +1,12 @@
+{
+  "xIshqn": {
+    "fails": 1,
+    "first_fail_ts": 1761415762.39018,
+    "lock_until": 0
+  },
+  "d": {
+    "fails": 0,
+    "first_fail_ts": 0,
+    "lock_until": 1761416075.514496
+  }
+}
