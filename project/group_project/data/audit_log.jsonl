@@ -1681,3 +1681,9 @@ gAAAAABo_5RaBkKBAdE2w4oCYw2UzjtTO0qMk72aM5uYkeVlGGh8z711GPtjIzQDm3QVn8VOCDTSPZlE
 {"ts": "2025-11-04T15:25:25.216552Z", "event": "search.index.refresh", "user": null, "role": null, "details": {"total_logs": 0}, "app_version": "1.0"}
 {"ts": "2025-11-04T15:25:25.239494Z", "event": "search.index.refresh", "user": null, "role": null, "details": {"total_logs": 0}, "app_version": "1.0"}
 {"ts": "2025-11-04T15:25:25.262426Z", "event": "search.index.refresh", "user": null, "role": null, "details": {"total_logs": 0}, "app_version": "1.0"}
+{"ts": "2025-11-04T15:26:23.176934Z", "event": "search.index.refresh", "user": null, "role": null, "details": {"total_logs": 0}, "app_version": "1.0"}
+{"ts": "2025-11-04T15:26:23.199712Z", "event": "search.index.refresh", "user": null, "role": null, "details": {"total_logs": 0}, "app_version": "1.0"}
+{"ts": "2025-11-04T15:26:23.220869Z", "event": "search.index.refresh", "user": null, "role": null, "details": {"total_logs": 0}, "app_version": "1.0"}
+{"ts": "2025-11-04T15:26:25.165454Z", "event": "search.index.refresh", "user": null, "role": null, "details": {"total_logs": 0}, "app_version": "1.0"}
+{"ts": "2025-11-04T15:26:25.192537Z", "event": "search.index.refresh", "user": null, "role": null, "details": {"total_logs": 0}, "app_version": "1.0"}
+{"ts": "2025-11-04T15:26:25.217287Z", "event": "search.index.refresh", "user": null, "role": null, "details": {"total_logs": 0}, "app_version": "1.0"}
