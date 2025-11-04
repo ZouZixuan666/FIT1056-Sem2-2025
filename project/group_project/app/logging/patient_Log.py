@@ -5,14 +5,18 @@ from typing import List, Dict, Any, Optional
 from app.core.validator import Validator, atomic_write_json, read_json_file
 from app.core.audit import audit
 from typing import List, Dict, Any, Callable, Optional
+import tempfile
 class PatientLog:
     """
     Handles creation, retrieval, and filtering of patient logs.
     Logs are stored in JSON format for reliability and portability.
     """
 
-    def __init__(self, path: str = "data/patient_logs.json"):
-        self.path = path
+    def __init__(self):
+        tmp_dir = tempfile.gettempdir()
+        self.path = os.path.join(tmp_dir, "patient_logs.json")
+        if not os.path.exists(self.path):
+            self._save_logs([])
         
         os.makedirs(os.path.dirname(self.path), exist_ok=True)
         # Initialize file if it doesn't exist
