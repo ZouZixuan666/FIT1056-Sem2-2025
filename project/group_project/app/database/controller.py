@@ -270,27 +270,32 @@ class Controller:
 
         # Mirror removal from DBM.assignments if it matches staffID and patientID
         if ok:
+                # Always attempt local cleanup to keep the GUI consistent
             try:
-                # If we keep only the "latest" row per staffID in DBM, just drop the staffID row.
-                # Otherwise, filter out the specific pair.
                 rows = self.db.get_all_assignments()
-                keep = []
-                for r in rows:
-                    if (r.get("staffID") == staff_id) and (r.get("patientID") == patient_id):
-                        continue
-                    keep.append(r)
-                # Rebuild the simple store
-                self.db.assignments = {r.get("staffID"): r for r in keep if r.get("staffID")}
+                
+                new_rows = [
+                    r for r in rows
+                    if not ((r.get("staffID") == staff_id) and (r.get("patientID") == patient_id))
+                ]
+                removed = len(rows) - len(new_rows)
+
+                self.db.assignments = {r.get("staffID"): r for r in new_rows if r.get("staffID")}
                 self.db.save_all()
-            except Exception:
-                pass
-            
+            except Exception as e:
+                print(f"ERROR during DB cleanup: {e}")
+
+            if not ok and "No such assignment" in msg and removed > 0:
+                # adjust msg to be clearer
+                ok, msg = True, "Local record cleaned up"
+
             try:
-                actor_id = self._actor_id() 
+                actor_id = self._actor_id()
                 self.log_action(admin_username, f"Unassigned patient {patient_id} from staff {actor_id}")
-            except Exception:
-                pass
-            return ok, msg
+            except Exception as e:
+                print(f"ERROR during log_action: {e}")
+
+        return ok, msg
 
     def replace_patient_staff(self, patient_id: str, new_staff_id: str, admin_username: str):
         ok, msg = _ASG.replace_assignments(patient_id, new_staff_id, admin_username)

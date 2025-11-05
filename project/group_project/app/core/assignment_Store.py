@@ -1,39 +1,35 @@
 # app/core/assignment_Store.py
 from __future__ import annotations
-
+from app.core.validator import read_json_file, atomic_write_json  # ensure both imported
 import os, json
 from datetime import datetime, timezone
 from types import SimpleNamespace
 from typing import List, Tuple, Dict, Any
-
+from app.core.validator import atomic_write_json
 ASSIGNMENTS_FILE = os.path.join("data", "assignments.json")
 
 # Try to use your app's atomic writer if present
-try:
-    from app.core.validator import atomic_write_json
-except Exception:
-    def atomic_write_json(path: str, data: Any) -> None:
-        os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
-        tmp = path + ".tmp"
-        with open(tmp, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
-        os.replace(tmp, path)
+
+
+
 
 def _utc_now_iso() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
 
 def _load_rows() -> List[Dict[str, Any]]:
-    if not os.path.exists(ASSIGNMENTS_FILE):
-        return []
+    """
+    Loads assignment records (automatically handles encryption if enabled).
+    Falls back to empty list if file missing or unreadable.
+    """
     try:
-        with open(ASSIGNMENTS_FILE, "r", encoding="utf-8") as f:
-            data = json.load(f)
+        data = read_json_file(ASSIGNMENTS_FILE, encrypted=True)
         return data if isinstance(data, list) else []
-    except Exception:
+    except Exception as e:
+        print(f"⚠️ _load_rows() failed to read: {e}")
         return []
 
 def _save_rows(rows: List[Dict[str, Any]]) -> None:
-    atomic_write_json(ASSIGNMENTS_FILE, rows)
+    atomic_write_json(ASSIGNMENTS_FILE, rows, encrypt=True)
 
 def _normalize_row(r: Dict[str, Any]) -> Dict[str, Any]:
     return {
@@ -94,8 +90,11 @@ def assign(patient_id: str, staff_id: str, assigned_by: str = "admin") -> Tuple[
 def unassign(patient_id: str, staff_id: str, assigned_by: str = "admin") -> Tuple[bool, str]:
     pid = (patient_id or "").strip()
     sid = (staff_id or "").strip()
+
     rows = list(map(_normalize_row, _load_rows()))
+
     new_rows = [r for r in rows if not (r["patientID"] == pid and r["staffID"] == sid)]
+    
     if len(new_rows) == len(rows):
         return False, "No such assignment"
     _save_rows(new_rows)
