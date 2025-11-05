@@ -10,25 +10,40 @@ ASSIGNMENTS_FILE = os.path.join("data", "assignments.json")
 
 # Try to use your app's atomic writer if present
 
-
-
-
 def _utc_now_iso() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
 
-def _load_rows() -> List[Dict[str, Any]]:
-    """
-    Loads assignment records (automatically handles encryption if enabled).
-    Falls back to empty list if file missing or unreadable.
-    """
+def _load_rows() -> list[dict]:
     try:
         data = read_json_file(ASSIGNMENTS_FILE, encrypted=True)
-        return data if isinstance(data, list) else []
-    except Exception as e:
-        print(f"⚠️ _load_rows() failed to read: {e}")
-        return []
 
+        # Handle wrapped or plain data structures
+        if isinstance(data, dict):
+            if "data" in data and isinstance(data["data"], list):
+                data = data["data"]
+            elif all(isinstance(v, (str, int, float)) for v in data.values()):
+                # Looks like a single assignment row
+                print("⚠️ _load_rows(): single-row dict detected – wrapping as list.")
+                data = [data]
+            elif len(data) == 1 and isinstance(next(iter(data.values())), list):
+                data = next(iter(data.values()))
+            else:
+                print("⚠️ _load_rows(): decrypted to dict without 'data' key – resetting to [].")
+                data = []
+
+        elif not isinstance(data, list):
+            print(f"⚠️ _load_rows(): unexpected type {type(data)}, resetting to [].")
+            data = []
+
+        print(f"DEBUG _load_rows(): loaded {len(data)} rows")
+        return data
+
+    except Exception as e:
+        print(f"⚠️ _load_rows() failed: {e}")
+        return []
+    
 def _save_rows(rows: List[Dict[str, Any]]) -> None:
+    print(f"DEBUG _save_rows(): saving {len(rows)} rows to {ASSIGNMENTS_FILE}")
     atomic_write_json(ASSIGNMENTS_FILE, rows, encrypt=True)
 
 def _normalize_row(r: Dict[str, Any]) -> Dict[str, Any]:

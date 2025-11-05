@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "patientID": "P001",
+    "dietaryNeeds": [
+      "Vegetarian",
+      "wfawfawfawf"
+    ],
+    "culturalNeeds": "wwfwfwfwaf",
+    "religiousNeeds": [
+      "wafawfawfaw"
+    ]
+  }
+]

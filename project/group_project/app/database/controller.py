@@ -247,7 +247,7 @@ class Controller:
         Validator.validate_staff_id((staff_id or "").strip().upper())
 
         ok, msg = _ASG.assign(patient_id, staff_id, admin_username)
-
+        print("DEBUG unassign():", ok, msg)
         # Best-effort mirror into DBM.assignments for quick list rendering
         if ok:
             try:
@@ -267,31 +267,45 @@ class Controller:
 
     def unassign_patient_from_staff(self, patient_id: str, staff_id: str, admin_username: str = "admin"):
         ok, msg = _ASG.unassign(patient_id, staff_id, admin_username)
+        print("DEBUG unassign():", ok, msg)
 
-        # Mirror removal from DBM.assignments if it matches staffID and patientID
         if ok:
-                # Always attempt local cleanup to keep the GUI consistent
+            # Best-effort mirror in DBM: delete exactly one matching row
             try:
-                rows = self.db.get_all_assignments()
-                
+                rows = list(self.db.get_all_assignments() or [])
                 new_rows = [
                     r for r in rows
-                    if not ((r.get("staffID") == staff_id) and (r.get("patientID") == patient_id))
+                    if not ((str(r.get("staffID")).strip().upper() == str(staff_id).strip().upper()) and
+                            (str(r.get("patientID")).strip().upper() == str(patient_id).strip().upper()))
                 ]
                 removed = len(rows) - len(new_rows)
+                print(f"DEBUG unassign(): mirror removed {removed} record(s)")
 
-                self.db.assignments = {r.get("staffID"): r for r in new_rows if r.get("staffID")}
-                self.db.save_all()
+                if removed > 0:
+                    # Prefer an explicit setter if your DBM has one
+                    if hasattr(self.db, "replace_all_assignments"):
+                        self.db.replace_all_assignments(new_rows)
+                    elif hasattr(self.db, "set_all_assignments"):
+                        self.db.set_all_assignments(new_rows)
+                    else:
+                        # Fallbacks: keep it as a **list**, never a dict
+                        if hasattr(self.db, "assignments_list"):
+                            self.db.assignments_list = new_rows
+                        else:
+                            self.db.assignments = new_rows  # last resort
+
+                    if hasattr(self.db, "save_all"):
+                        self.db.save_all()
+
+                # If assignment store said "no such assignment" but we did remove locally, normalize msg
+                if msg == "No such assignment" and removed > 0:
+                    ok, msg = True, "Local record cleaned up"
+
             except Exception as e:
-                print(f"ERROR during DB cleanup: {e}")
-
-            if not ok and "No such assignment" in msg and removed > 0:
-                # adjust msg to be clearer
-                ok, msg = True, "Local record cleaned up"
+                print(f"ERROR during DB mirror cleanup: {e}")
 
             try:
-                actor_id = self._actor_id()
-                self.log_action(admin_username, f"Unassigned patient {patient_id} from staff {actor_id}")
+                self.log_action(admin_username, f"Unassigned patient {patient_id} from staff {self._actor_id()}")
             except Exception as e:
                 print(f"ERROR during log_action: {e}")
 

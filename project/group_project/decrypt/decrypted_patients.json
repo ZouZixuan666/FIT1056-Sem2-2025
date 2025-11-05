@@ -4,7 +4,7 @@
     "name": "Patient",
     "patientID": "P001",
     "age": 20,
-    "condition": "Broken Foot",
+    "condition": "Broken Leg",
     "assignedStaffID": "S001",
     "preferences": null
   }

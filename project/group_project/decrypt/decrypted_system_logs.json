@@ -286,5 +286,929 @@
     "userID": "S001",
     "action": "Request for preference of ID:S001 by Staff system",
     "timestamp": "2025-10-27T16:59:32.641299"
+  },
+  {
+    "logID": "L001",
+    "userID": "system",
+    "action": "Request for instant value of patient ID:P001 by Staff system",
+    "timestamp": "2025-10-27T17:10:28.012372"
+  },
+  {
+    "logID": "L001",
+    "userID": "system",
+    "action": "Patient P001 registered by Staff system.",
+    "timestamp": "2025-10-27T17:10:28.051505"
+  },
+  {
+    "logID": "L001",
+    "userID": "system",
+    "action": "Request for instant value of staff ID:S001 by Staff system",
+    "timestamp": "2025-10-27T18:23:52.403959"
+  },
+  {
+    "logID": "L001",
+    "userID": "system",
+    "action": "Staff S001 registered. by Staff system",
+    "timestamp": "2025-10-27T18:23:52.441772"
+  },
+  {
+    "logID": "L001",
+    "userID": "system",
+    "action": "Request for staff ID:S001 by system",
+    "timestamp": "2025-10-27T19:04:57.393225"
+  },
+  {
+    "logID": "L001",
+    "userID": "system",
+    "action": "Staff S001 registered by system.",
+    "timestamp": "2025-10-27T19:04:57.431332"
+  },
+  {
+    "logID": "L001",
+    "userID": "system",
+    "action": "Request for staff ID:S001 by system",
+    "timestamp": "2025-10-27T19:07:21.478849"
+  },
+  {
+    "logID": "L001",
+    "userID": "system",
+    "action": "Staff S001 registered by system.",
+    "timestamp": "2025-10-27T19:07:21.519449"
+  },
+  {
+    "logID": "L001",
+    "userID": "system",
+    "action": "Request for patient ID:P001 by system",
+    "timestamp": "2025-10-27T19:07:39.703928"
+  },
+  {
+    "logID": "L001",
+    "userID": "system",
+    "action": "Patient P001 registered by system.",
+    "timestamp": "2025-10-27T19:07:39.743666"
+  },
+  {
+    "logID": "L001",
+    "userID": "system",
+    "action": "Request for staff ID:S001 by system",
+    "timestamp": "2025-10-27T19:15:45.152451"
+  },
+  {
+    "logID": "L001",
+    "userID": "system",
+    "action": "Request for staff ID:S001 by system",
+    "timestamp": "2025-10-27T19:15:50.772418"
+  },
+  {
+    "logID": "L001",
+    "userID": "system",
+    "action": "Staff S001 registered by system.",
+    "timestamp": "2025-10-27T19:15:50.810486"
+  },
+  {
+    "logID": "L001",
+    "userID": "P001",
+    "action": "Request for preferences by system",
+    "timestamp": "2025-10-27T19:17:09.657491"
+  },
+  {
+    "logID": "L001",
+    "userID": "system",
+    "action": "Request for staff ID:S001 by system",
+    "timestamp": "2025-10-27T19:17:18.071534"
+  },
+  {
+    "logID": "L001",
+    "userID": "system",
+    "action": "Staff S001 registered by system.",
+    "timestamp": "2025-10-27T19:17:18.108594"
+  },
+  {
+    "logID": "L001",
+    "userID": "system",
+    "action": "Request for patient ID:P001 by system",
+    "timestamp": "2025-10-27T19:35:30.511728"
+  },
+  {
+    "logID": "L001",
+    "userID": "system",
+    "action": "Patient P001 registered by system.",
+    "timestamp": "2025-10-27T19:35:30.550516"
+  },
+  {
+    "logID": "L001",
+    "userID": "P001",
+    "action": "Request for preferences by system",
+    "timestamp": "2025-10-27T19:35:41.978275"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assignment: Assigned (P001 -> S001)",
+    "timestamp": "2025-10-27T19:42:02.298441"
+  },
+  {
+    "logID": "L001",
+    "userID": "P001",
+    "action": "Request for preference of ID:P001 by system",
+    "timestamp": "2025-10-27T20:25:05.782371"
+  },
+  {
+    "logID": "L001",
+    "userID": "P001",
+    "action": "Request for preference of ID:P001 by system",
+    "timestamp": "2025-10-27T20:25:10.802423"
+  },
+  {
+    "logID": "L001",
+    "userID": "P001",
+    "action": "Request for preference of ID:P001 by system",
+    "timestamp": "2025-10-27T20:25:12.752462"
+  },
+  {
+    "logID": "L001",
+    "userID": "system",
+    "action": "Request for staff ID:S002 by system",
+    "timestamp": "2025-10-27T23:05:44.636856"
+  },
+  {
+    "logID": "L001",
+    "userID": "P001",
+    "action": "Request for preference of ID:P001 by system",
+    "timestamp": "2025-10-27T23:31:39.447062"
+  },
+  {
+    "logID": "L001",
+    "userID": "P001",
+    "action": "Request for preference of ID:P001 by system",
+    "timestamp": "2025-10-27T23:36:26.141448"
+  },
+  {
+    "logID": "L001",
+    "userID": "P001",
+    "action": "Request for preference of ID:P001 by system",
+    "timestamp": "2025-10-27T23:36:28.613480"
+  },
+  {
+    "logID": "L001",
+    "userID": "P001",
+    "action": "Request for preference of ID:P001 by system",
+    "timestamp": "2025-10-27T23:44:00.801686"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Request for preference of ID:A001 by system",
+    "timestamp": "2025-10-27T23:48:05.311092"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Request for preference of ID:A001 by system",
+    "timestamp": "2025-10-27T23:48:05.359589"
+  },
+  {
+    "logID": "L001",
+    "userID": "P001",
+    "action": "Request for preference of ID:P001 by system",
+    "timestamp": "2025-10-27T23:48:30.211650"
+  },
+  {
+    "logID": "L001",
+    "userID": "P001",
+    "action": "Request for preference of ID:P001 by system",
+    "timestamp": "2025-10-27T23:48:30.254905"
+  },
+  {
+    "logID": "L001",
+    "userID": "P001",
+    "action": "Request for preference of ID:P001 by system",
+    "timestamp": "2025-10-27T23:48:38.628431"
+  },
+  {
+    "logID": "L001",
+    "userID": "system",
+    "action": "Preferences set/updated by system",
+    "timestamp": "2025-10-27T23:48:38.707919"
+  },
+  {
+    "logID": "L001",
+    "userID": "P001",
+    "action": "Request for preference of ID:P001 by system",
+    "timestamp": "2025-10-27T23:48:38.745227"
+  },
+  {
+    "logID": "L001",
+    "userID": "P001",
+    "action": "Request for preference of ID:P001 by system",
+    "timestamp": "2025-10-27T23:48:42.391640"
+  },
+  {
+    "logID": "L001",
+    "userID": "P001",
+    "action": "Request for preference of ID:P001 by system",
+    "timestamp": "2025-10-27T23:48:42.458331"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T11:23:20.324035"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Request for preference of ID:A001 by system",
+    "timestamp": "2025-11-05T11:28:50.859045"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Request for preference of ID:A001 by system",
+    "timestamp": "2025-11-05T11:28:50.896892"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Request for preference of ID:A001 by system",
+    "timestamp": "2025-11-05T11:29:45.807963"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Request for preference of ID:A001 by system",
+    "timestamp": "2025-11-05T11:29:45.849670"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Request for preference of ID:A001 by system",
+    "timestamp": "2025-11-05T11:30:08.280482"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Request for preference of ID:A001 by system",
+    "timestamp": "2025-11-05T11:30:08.321085"
+  },
+  {
+    "logID": "L001",
+    "userID": "P001",
+    "action": "Request for preference of ID:P001 by system",
+    "timestamp": "2025-11-05T11:35:53.986701"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T11:37:55.848428"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T11:37:56.680296"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T11:37:56.918891"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T11:37:57.140520"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T11:38:04.221441"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T11:38:04.431046"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T11:38:04.623631"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T11:38:05.564697"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T11:38:05.811501"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T11:38:29.084806"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T11:38:34.636547"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T11:54:00.898525"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:00:46.277586"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:00:46.843471"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:04:12.938139"
+  },
+  {
+    "logID": "L001",
+    "userID": "admin",
+    "action": "Unassigned patient p001 from staff system",
+    "timestamp": "2025-11-05T12:12:23.900901"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:37:24.500722"
+  },
+  {
+    "logID": "L001",
+    "userID": "admin",
+    "action": "Unassigned patient p001 from staff system",
+    "timestamp": "2025-11-05T12:37:25.642703"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:37:27.242891"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:37:27.955995"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:37:28.478421"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:37:28.919863"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:37:29.378124"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:37:30.005314"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:37:30.432289"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:37:30.654744"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:37:30.839156"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:37:31.031208"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:37:31.231958"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:37:32.036765"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:37:43.012688"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:37:43.563647"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:37:43.831776"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:37:44.025123"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:37:44.205653"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:37:44.406327"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:37:44.595343"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:37:44.798167"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:37:45.027651"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:37:45.274516"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:37:45.461333"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:37:45.627053"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:37:46.853771"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:37:47.260842"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:38:34.172663"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:38:34.740231"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:38:35.126498"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:40:20.458146"
+  },
+  {
+    "logID": "L001",
+    "userID": "admin",
+    "action": "Unassigned patient p001 from staff system",
+    "timestamp": "2025-11-05T12:40:22.405898"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:40:23.278137"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:40:29.580710"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:40:47.298709"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:42:49.343644"
+  },
+  {
+    "logID": "L001",
+    "userID": "admin",
+    "action": "Unassigned patient p001 from staff system",
+    "timestamp": "2025-11-05T12:42:50.199310"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:42:50.617790"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:42:51.340918"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:42:51.699835"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:42:51.901855"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:45:27.753566"
+  },
+  {
+    "logID": "L001",
+    "userID": "admin",
+    "action": "Unassigned patient p001 from staff system",
+    "timestamp": "2025-11-05T12:45:28.630470"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:45:29.123088"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:45:29.754246"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:45:30.005091"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:45:30.205436"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:45:30.401720"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:45:31.176634"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:45:31.608894"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:45:31.825467"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:45:32.002904"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:45:32.157117"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:47:29.030653"
+  },
+  {
+    "logID": "L001",
+    "userID": "admin",
+    "action": "Unassigned patient p001 from staff system",
+    "timestamp": "2025-11-05T12:47:29.890299"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:47:30.741402"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:47:31.548017"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:47:32.026806"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:47:32.335426"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:47:32.743889"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:47:33.142754"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:47:33.421490"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:47:33.628167"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:47:33.815037"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:47:33.994752"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:47:34.177093"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:47:34.391759"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:47:34.572919"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:47:34.839088"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:47:35.246443"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:47:35.717028"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:47:36.168803"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:47:36.610971"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:47:37.008586"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:58:59.839042"
+  },
+  {
+    "logID": "L001",
+    "userID": "admin",
+    "action": "Unassigned patient p001 from staff system",
+    "timestamp": "2025-11-05T12:59:00.672071"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:59:02.060152"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:59:02.704135"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:59:29.203724"
+  },
+  {
+    "logID": "L001",
+    "userID": "admin",
+    "action": "Unassigned patient p001 from staff system",
+    "timestamp": "2025-11-05T12:59:30.265961"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:59:31.172584"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T12:59:31.811064"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T13:01:22.095292"
+  },
+  {
+    "logID": "L001",
+    "userID": "admin",
+    "action": "Unassigned patient p001 from staff system",
+    "timestamp": "2025-11-05T13:01:22.936211"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T13:01:24.580570"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T13:01:25.107178"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T13:01:25.302015"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T13:01:25.475376"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T13:01:25.650259"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Assigned patient p001 to staff system",
+    "timestamp": "2025-11-05T13:01:25.829971"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Request for preference of ID:A001 by system",
+    "timestamp": "2025-11-05T13:26:13.715476"
+  },
+  {
+    "logID": "L001",
+    "userID": "A001",
+    "action": "Request for preference of ID:A001 by system",
+    "timestamp": "2025-11-05T13:26:13.757602"
   }
 ]

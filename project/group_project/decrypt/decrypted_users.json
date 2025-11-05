@@ -19,9 +19,18 @@
   },
   "S001": {
     "userID": "S001",
-    "hash": "d196ebb6dff75b34147968b4c60fd8a85f1497ee63d5a1e832402efce3f2e96d",
+    "hash": "4c859b3beb60694d003eba77738d017809b40f1e9bcf3d14c31d21678502f4e4",
     "role": "staff",
     "name": "Staff",
+    "default_ui_lang": "en",
+    "lock_fails": 0,
+    "lock_until_ts": null
+  },
+  "P001": {
+    "userID": "P001",
+    "hash": "986e87c730ea9ea4cd5d80966d82103fa72b514e667d586c460ea07f5e856832",
+    "role": "patient",
+    "name": "Patient",
     "default_ui_lang": "en",
     "lock_fails": 0,
     "lock_until_ts": null
